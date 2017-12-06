@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-02 14:10:12+0000\n"
+"PO-Revision-Date: 2017-11-24 08:10:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,19 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: et_EE\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#: includes/admin/class-wc-admin-setup-wizard.php:627
+msgctxt "Short label for entering the cost of an item"
+msgid "Cost"
+msgstr "Hind"
+
+#: templates/myaccount/form-add-payment-method.php:59
+msgid "New payment methods can only be added during checkout. Please contact us if you require assistance."
+msgstr "Uusi maksemeetodeid saab lisada ainult kassas ostu vormistamise ajal. Kui vajate abi, võtke palun meiega ühendust."
+
+#: includes/wc-core-functions.php:318
+msgid "Belarusian ruble (old)"
+msgstr "Valgevene rubla (vana)"
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:317
 msgid "This key is invalid or has already been used. Please reset your password again if needed."
@@ -43,23 +56,23 @@ msgstr "Tellimuse andmed"
 msgid "Resend new order notification"
 msgstr "Saada veelkord uue tellimuse teavitus"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1340
+#: includes/admin/class-wc-admin-setup-wizard.php:1338
 msgid "Learn more about WooCommerce Services"
 msgstr "Uuri lähemalt WooCommerce Services kohta"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1336
+#: includes/admin/class-wc-admin-setup-wizard.php:1334
 msgid "Automatically calculate and charge the correct rate of tax for each time a customer checks out. If toggled on, WooCommerce Services and Jetpack will be installed and activated for you."
 msgstr "Iga kord, kui klient on kassas, arvutatakse temale kehtiv maksumäär. Kui see valik aktiveerida, paigaldatakse ja aktiveeritakse WooCommerce Services ja Jetpack sinu eest."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1334
+#: includes/admin/class-wc-admin-setup-wizard.php:1332
 msgid "Automated Taxes (powered by WooCommerce Services)"
 msgstr "Automaatsed maksumäärad (töötab WooCommerce Services peal)"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1023
+#: includes/admin/class-wc-admin-setup-wizard.php:1021
 msgid "Enter your email address and we'll handle account creation. WooCommerce Services and Jetpack will be installed and activated for you."
 msgstr "Sisesta oma e-posti aadress ja me loome sulle ise konto. WooCommerce Services ja Jetpack paigaldatakse ning aktiveeritakse sinu eest."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:621
+#: includes/admin/class-wc-admin-setup-wizard.php:619
 msgid "WooCommerce Services and Jetpack will be installed and activated for you."
 msgstr "WooCommerce Services ja Jetpack paigaldatakse ning aktiveeritakse sinu eest."
 
@@ -155,7 +168,7 @@ msgstr "Näita nimekirja aktiivsetest tootefiltritest."
 msgid "Display the customer shopping cart."
 msgstr "Näita kliendi ostukorvi."
 
-#: includes/wc-template-functions.php:849
+#: includes/wc-template-functions.php:850
 msgid "Relevance"
 msgstr "Olulisus"
 
@@ -202,8 +215,8 @@ msgstr "Maksemeetodi lisamine õnnestus."
 msgid "Invalid payment gateway."
 msgstr "Vigane maksekanal."
 
-#: includes/class-wc-discounts.php:663 includes/class-wc-discounts.php:701
-#: includes/class-wc-discounts.php:755
+#: includes/class-wc-discounts.php:661 includes/class-wc-discounts.php:699
+#: includes/class-wc-discounts.php:753
 msgid "Sorry, this coupon is not applicable to selected products."
 msgstr "Vabandust, seda kupongi ei saa valitud toodetele rakendada."
 
@@ -430,7 +443,7 @@ msgstr "Varsti aegumas"
 msgid "Update Available"
 msgstr "Saadaval uuendus"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1655
+#: includes/admin/class-wc-admin-setup-wizard.php:1653
 msgid "Transfer existing products to your new store — just import a CSV file."
 msgstr "Tõsta olemasolevad tooted oma uude poodi ümber — selleks impordi CSV fail."
 
@@ -439,229 +452,224 @@ msgstr "Tõsta olemasolevad tooted oma uude poodi ümber — selleks impordi CSV
 msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
 msgstr "Kui sulle meeldib %1$s, anna meile palun %2$s hinnang. Suur tänu juba ette!"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1654
-#: includes/admin/class-wc-admin-setup-wizard.php:1660
+#: includes/admin/class-wc-admin-setup-wizard.php:1652
+#: includes/admin/class-wc-admin-setup-wizard.php:1658
 msgid "Import products"
 msgstr "Impordi tooted"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1653
+#: includes/admin/class-wc-admin-setup-wizard.php:1651
 msgid "Have an existing store?"
 msgstr "Kas sul on juba pood olemas?"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1646
+#: includes/admin/class-wc-admin-setup-wizard.php:1644
 msgid "Create a product"
 msgstr "Loo toode"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1641
+#: includes/admin/class-wc-admin-setup-wizard.php:1639
 msgid "You're ready to add your first product."
 msgstr "Oled valmis oma esimese toote lisamiseks."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1640
+#: includes/admin/class-wc-admin-setup-wizard.php:1638
 msgid "Create your first product"
 msgstr "Loo oma esimene toode"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1626
+#: includes/admin/class-wc-admin-setup-wizard.php:1624
 msgid "Yes please!"
 msgstr "Jah palun!"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1612
+#: includes/admin/class-wc-admin-setup-wizard.php:1610
 msgid "We're here for you — get tips, product updates, and inspiration straight to your mailbox."
 msgstr "Oleme sulle abiks — saad nõuandeid, tooteuuendusi ja inspiratsiooni otse oma kirjakasti."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1609
+#: includes/admin/class-wc-admin-setup-wizard.php:1607
 msgid "You're ready to start selling!"
 msgstr "Oled valmis müümise alustamiseks!"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1525
+#: includes/admin/class-wc-admin-setup-wizard.php:1523
 msgid "Share new items on social media the moment they're live in your store."
 msgstr "Jaga uusi tooteid sotsiaalmeedias kohe, kui nad sinu poes müügile ilmuvad."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1522
+#: includes/admin/class-wc-admin-setup-wizard.php:1520
 msgid "Product promotion"
 msgstr "Toodete reklaam"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1517
+#: includes/admin/class-wc-admin-setup-wizard.php:1515
 msgid "Get an alert if your store is down for even a few minutes."
 msgstr "Saad teavituse, kui pood isegi mõneks minutiks maha läheb."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1514
+#: includes/admin/class-wc-admin-setup-wizard.php:1512
 msgid "Store monitoring"
 msgstr "Poe monitoorimine"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1509
+#: includes/admin/class-wc-admin-setup-wizard.php:1507
 msgid "Get insights on how your store is doing, including total sales, top products, and more."
 msgstr "Saad ülevaate, kuidas su poel läheb, sealhulgas kogumüük, populaarseimad tooted ja muud."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1506
+#: includes/admin/class-wc-admin-setup-wizard.php:1504
 msgid "Store stats"
 msgstr "Poe statistika"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1501
+#: includes/admin/class-wc-admin-setup-wizard.php:1499
 msgid "Protect your store from unauthorized access."
 msgstr "Kaitse oma poodi autoriseerimata ligipääsu eest."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1498
+#: includes/admin/class-wc-admin-setup-wizard.php:1496
 msgid "Better security"
 msgstr "Parem turvalisus"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1494
+#: includes/admin/class-wc-admin-setup-wizard.php:1492
 msgid "Bonus reasons you'll love Jetpack"
 msgstr "Lisapõhjused, miks sulle Jetpack kindlasti meeldib"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1489
+#: includes/admin/class-wc-admin-setup-wizard.php:1487
 msgid "Connect with Jetpack"
 msgstr "Ühenda Jetpack'iga"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1474
+#: includes/admin/class-wc-admin-setup-wizard.php:1472
 msgid "Finish setting up your store"
 msgstr "Lõpeta poe algseadistus"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1458
+#: includes/admin/class-wc-admin-setup-wizard.php:1456
 msgid "Connect your store to Jetpack to enable extra features"
 msgstr "Lisavõimaluste aktiveerimiseks ühenda oma pood Jetpack'iga"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1457
+#: includes/admin/class-wc-admin-setup-wizard.php:1455
 msgid "Connect your store to Jetpack"
 msgstr "Ühenda oma pood Jetpack'iga"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1450
+#: includes/admin/class-wc-admin-setup-wizard.php:1448
 msgid "Sorry, We couldn't connect your store to Jetpack"
 msgstr "Vabandust, meil ei õnnestunud sinu poodi Jetpack'iga ühendada."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1434
+#: includes/admin/class-wc-admin-setup-wizard.php:1432
 msgid "live rates and discounted shipping labels"
 msgstr "reaalajas tarnehinnad ja soodsad tarnelipikud"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1432
+#: includes/admin/class-wc-admin-setup-wizard.php:1430
 msgid "automated taxes"
 msgstr "automaatsed maksumäärad"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1430
+#: includes/admin/class-wc-admin-setup-wizard.php:1428
 msgid "automated taxes, live rates and discounted shipping labels"
 msgstr "automaatsed maksumäärad, reaalajas tarnehinnad ja soodsad tarnelipikud"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1428
+#: includes/admin/class-wc-admin-setup-wizard.php:1426
 msgid "Stripe payments"
 msgstr "Stripe maksed"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1426
+#: includes/admin/class-wc-admin-setup-wizard.php:1424
 msgid "Stripe payments, live rates and discounted shipping labels"
 msgstr "Stripe maksed, reaalajas tarnehinnad ja soodsad tarnelipikud"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1424
+#: includes/admin/class-wc-admin-setup-wizard.php:1422
 msgid "Stripe payments and automated taxes"
 msgstr "Stripe maksed ja automaatsed maksumäärad"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1422
+#: includes/admin/class-wc-admin-setup-wizard.php:1420
 msgid "Stripe payments, automated taxes, live rates and discounted shipping labels"
 msgstr "Stripe maksed, automaatsed maksemäärad, reaalajas tarnehinnad ja soodsad tarnelipikud"
 
 #. translators: %s: list of features, potentially comma separated
-#: includes/admin/class-wc-admin-setup-wizard.php:1419
+#: includes/admin/class-wc-admin-setup-wizard.php:1417
 msgid "Your store is almost ready! To activate services like %s, just connect with Jetpack."
 msgstr "Sinu pood on peaaegu valmis! Teenuste, näiteks %s, aktiveerimiseks ühendu Jetpack'iga."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1316
+#: includes/admin/class-wc-admin-setup-wizard.php:1314
 msgid "Learn more about Storefront"
 msgstr "Vaata lisainfot Storefronti kohta"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1312
+#: includes/admin/class-wc-admin-setup-wizard.php:1310
 msgid "Your theme is not compatible with WooCommerce. We recommend you switch to Storefront, a free WordPress theme built and maintained by the makers of WooCommerce. If toggled on, Storefront will be installed and activated for you."
 msgstr "Sinu teema ei sobi WooCommerce'iga kokku. Soovitame vahetada Storefronti vastu, mis on WooCommerce'i tegijate poolt loodud ning hooldatav tasuta WordPressi teema. Kui aktiveerid selle valiku, paigaldatakse ja aktiveeritakse Storefront sinu eest."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1310
+#: includes/admin/class-wc-admin-setup-wizard.php:1308
 msgid "Storefront Theme"
 msgstr "Storefront teema"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1304
+#: includes/admin/class-wc-admin-setup-wizard.php:1302
 msgid "Recommended Extras"
 msgstr "Soovitatavad lisad"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1239
+#: includes/admin/class-wc-admin-setup-wizard.php:1237
 msgid "Collect payments from customers offline."
 msgstr "Võta vastu klientide makseid internetist väljas."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1048
+#: includes/admin/class-wc-admin-setup-wizard.php:1046
 msgid "PayPal email address:"
 msgstr "PayPal'i e-posti aadress:"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1022
+#: includes/admin/class-wc-admin-setup-wizard.php:1020
 msgid "Stripe email address"
 msgstr "Stripe'i e-posti aadress"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1019
+#: includes/admin/class-wc-admin-setup-wizard.php:1017
 msgid "Stripe email address:"
 msgstr "Stripe'i e-posti aadress:"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:811
+#: includes/admin/class-wc-admin-setup-wizard.php:809
 msgid "<strong>Dimension unit</strong>—helps for accurate package selection."
 msgstr "<strong>Mõõtude ühik</strong>—aitab täpsemalt tarne pakendit valida."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1012
+#: includes/admin/class-wc-admin-setup-wizard.php:1010
 msgid "Create a new Stripe account for me"
 msgstr "Loo minu jaoks uus Stripe konto"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:793
+#: includes/admin/class-wc-admin-setup-wizard.php:791
 msgid "<strong>Weight unit</strong>—used to calculate shipping rates, and more."
 msgstr "<strong>Kaalu ühik</strong>—kasutatakse tarnemäärade arvutusteks ja enamaks."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:753
+#: includes/admin/class-wc-admin-setup-wizard.php:751
 msgid "Shipping Method"
 msgstr "Tarnemeetod"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:750
+#: includes/admin/class-wc-admin-setup-wizard.php:748
 msgid "Shipping Zone"
 msgstr "Tarnetsoon"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:726
+#: includes/admin/class-wc-admin-setup-wizard.php:724
 msgid "How would you like units on your store displayed?"
 msgstr "Kuidas sa soovid oma poes ühikuid näidata?"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:637
+#: includes/admin/class-wc-admin-setup-wizard.php:635
 msgid "Don't charge for shipping."
 msgstr "Ära küsi tarne eest tasu."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:630
+#: includes/admin/class-wc-admin-setup-wizard.php:628
 msgid "What would you like to charge for flat rate shipping?"
 msgstr "Kui palju sa soovid fikseeritud hinnaga tarne eest küsida?"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:625
+#: includes/admin/class-wc-admin-setup-wizard.php:623
 msgid "Set a fixed price to cover shipping costs."
 msgstr "Määra kindel hind, mida tarne eest küsida."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:624
+#: includes/admin/class-wc-admin-setup-wizard.php:622
 msgid "Flat Rate"
 msgstr "Fikseeritud hind"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:620
+#: includes/admin/class-wc-admin-setup-wizard.php:618
 msgid "Live Rates"
 msgstr "Reaalajas tarnehinnad"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:573
-#: includes/admin/class-wc-admin-setup-wizard.php:1560
+#: includes/admin/class-wc-admin-setup-wizard.php:571
+#: includes/admin/class-wc-admin-setup-wizard.php:1558
 msgid "Jetpack"
 msgstr "Jetpack"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:417
+#: includes/admin/class-wc-admin-setup-wizard.php:415
 msgid "Allow WooCommerce to collect non-sensitive diagnostic data and usage information."
 msgstr "Luba WooCommerce'il koguda mittetundlikke diagnostika andmeid ning kasutuse statistikat."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:412
+#: includes/admin/class-wc-admin-setup-wizard.php:408
 msgid "I plan to sell both physical and digital products"
 msgstr "Ma plaanin müüa nii füüsilisi kui ka digitaalseid tooteid"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:411
+#: includes/admin/class-wc-admin-setup-wizard.php:410
 msgid "I plan to sell digital products"
 msgstr "Ma plaanin müüa digitaalseid tooteid"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:410
+#: includes/admin/class-wc-admin-setup-wizard.php:409
 msgid "I plan to sell physical products"
 msgstr "Ma plaanin müüa füüsilisi tooteid"
-
-#: includes/admin/class-wc-admin-setup-wizard.php:406
-#: includes/admin/class-wc-admin-setup-wizard.php:409
-msgid "Please choose one&hellip;"
-msgstr "Palun vali üks&hellip;"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:400
 msgid "What type of product do you plan to sell?"
@@ -964,7 +972,7 @@ msgid "I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\" class=\"w
 msgstr "Olen lugenud ja nõustun <a href=\"%s\" target=\"_blank\" class=\"woocommerce-terms-and-conditions-link\">müügitingimustega</a>"
 
 #. translators: 1: rating 2: rating count
-#: includes/wc-template-functions.php:2669
+#: includes/wc-template-functions.php:2670
 msgid "Rated %1$s out of 5 based on %2$s customer rating"
 msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
 msgstr[0] "Hinnatud %1$s/5 %2$s kliendi hinnangu põhjal"
@@ -1145,7 +1153,7 @@ msgstr "Kupong taastatud"
 msgid "Manage shipping methods"
 msgstr "Halda tarnemeetodeid"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:772
+#: includes/admin/class-wc-admin-setup-wizard.php:770
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:26
 #: includes/data-stores/class-wc-shipping-zone-data-store.php:67
 msgid "Locations not covered by your other zones"
@@ -1794,7 +1802,7 @@ msgstr "Osta allahinnatud tarnekleepse — seejärel prindi neid oma töölaualt
 
 #: includes/admin/class-wc-admin-addons.php:336
 #: includes/admin/class-wc-admin-addons.php:500
-#: includes/admin/class-wc-admin-setup-wizard.php:585
+#: includes/admin/class-wc-admin-setup-wizard.php:583
 msgid "WooCommerce Services"
 msgstr "WooCommerce Services"
 
@@ -2263,7 +2271,7 @@ msgstr "Selle tellimuse maksemeetodit pole olemas."
 msgid "Invalid refund amount."
 msgstr "Vigane tagasimakse summa."
 
-#: includes/wc-formatting-functions.php:1089
+#: includes/wc-formatting-functions.php:1092
 msgctxt "Price range: from-to"
 msgid "%1$s &ndash; %2$s"
 msgstr "%1$s &ndash; %2$s"
@@ -2280,7 +2288,7 @@ msgstr "Kindel ostukorvi allahindluse summa"
 msgid "Percentage discount"
 msgstr "Protsendipõhine allahindlus"
 
-#: includes/wc-core-functions.php:361
+#: includes/wc-core-functions.php:362
 msgid "Iranian toman"
 msgstr "Iraani toman"
 
@@ -2426,8 +2434,8 @@ msgstr "Maksetunnuse väli on vigane või puudu."
 msgid "Invalid download."
 msgstr "Vigane allalaetav fail."
 
-#: includes/data-stores/class-wc-customer-data-store.php:136
-#: includes/data-stores/class-wc-customer-data-store.php:141
+#: includes/data-stores/class-wc-customer-data-store.php:137
+#: includes/data-stores/class-wc-customer-data-store.php:142
 msgid "Invalid customer."
 msgstr "Vigane klient."
 
@@ -2615,14 +2623,14 @@ msgstr "Vigane toode"
 msgid "Visit premium customer support"
 msgstr "Külasta tasulist kliendituge"
 
-#: includes/class-wc-form-handler.php:940
 #: includes/class-wc-form-handler.php:944
-#: includes/class-wc-form-handler.php:957
-#: includes/class-wc-form-handler.php:1101 includes/wc-user-functions.php:111
+#: includes/class-wc-form-handler.php:948
+#: includes/class-wc-form-handler.php:961
+#: includes/class-wc-form-handler.php:1105 includes/wc-user-functions.php:111
 msgid "Error:"
 msgstr "Viga:"
 
-#: includes/class-wc-form-handler.php:896
+#: includes/class-wc-form-handler.php:900
 msgid "Invalid value posted for %s"
 msgstr "Saadetud %s väärtus on vigane"
 
@@ -2686,11 +2694,11 @@ msgstr "Sa ei saa enam rohkem toodet \"%s\" ostukorvi lisada."
 
 #. translators: %s: product name
 #: includes/class-wc-cart.php:1089 includes/class-wc-frontend-scripts.php:539
-#: includes/wc-cart-functions.php:117 includes/wc-template-functions.php:1503
+#: includes/wc-cart-functions.php:117 includes/wc-template-functions.php:1504
 msgid "View cart"
 msgstr "Vaata ostukorvi"
 
-#: includes/class-wc-cache-helper.php:196
+#: includes/class-wc-cache-helper.php:199
 msgid "In order for <strong>database caching</strong> to work with WooCommerce you must add %1$s to the \"Ignored Query Strings\" option in <a href=\"%2$s\">W3 Total Cache settings</a>."
 msgstr "Selleks, et <strong>andmebaasi vahemälu</strong> töötaks koos WooCommerce-iga, pead lisama %1$s sättesse \"Ignored Query Strings\" leheküljel <a href=\"%2$s\">W3 Total Cache settings</a>."
 
@@ -3146,31 +3154,31 @@ msgstr "Vigane sätete grupp."
 msgid "Settings group ID."
 msgstr "Sätete grupi ID."
 
-#: includes/api/class-wc-rest-products-controller.php:2103
+#: includes/api/class-wc-rest-products-controller.php:2106
 msgid "Limit result set to products based on a maximum price."
 msgstr "Piira tulemuste hulka toodete hinna ülempiiri järgi."
 
-#: includes/api/class-wc-rest-products-controller.php:2097
+#: includes/api/class-wc-rest-products-controller.php:2100
 msgid "Limit result set to products based on a minimum price."
 msgstr "Piira tulemuste hulka toodete hinna alampiiri järgi."
 
-#: includes/api/class-wc-rest-products-controller.php:2091
+#: includes/api/class-wc-rest-products-controller.php:2094
 msgid "Limit result set to products on sale."
 msgstr "Piira tulemuste hulk allahindlusega toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:2085
+#: includes/api/class-wc-rest-products-controller.php:2088
 msgid "Limit result set to products in stock or out of stock."
 msgstr "Piira tulemuste hulk laos olemas või laost otsas toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:2076
+#: includes/api/class-wc-rest-products-controller.php:2079
 msgid "Limit result set to products with a specific tax class."
 msgstr "Piira tulemuste hulk kindla maksuklassiga toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:2038
+#: includes/api/class-wc-rest-products-controller.php:2041
 msgid "Limit result set to featured products."
 msgstr "Piira tulemuste hulk esiletõstetud toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:1950
+#: includes/api/class-wc-rest-products-controller.php:1953
 msgid "List of variations IDs."
 msgstr "Variatsioonide ID-de nimikiri."
 
@@ -3315,20 +3323,20 @@ msgstr "Maksekanali nimetus kassas."
 msgid "Payment gateway ID."
 msgstr "Maksekanali ID."
 
-#: includes/api/class-wc-rest-orders-controller.php:1095
+#: includes/api/class-wc-rest-orders-controller.php:1090
 msgid "The date the order was completed, as GMT."
 msgstr "Tellimuse täitmise kuupäev, GMT väärtusena."
 
-#: includes/api/class-wc-rest-orders-controller.php:1083
+#: includes/api/class-wc-rest-orders-controller.php:1078
 msgid "The date the order was paid, as GMT."
 msgstr "Tellimuse eest tasumise kuupäev, GMT väärtusena."
 
-#: includes/api/class-wc-rest-orders-controller.php:870
+#: includes/api/class-wc-rest-orders-controller.php:865
 #: includes/api/v1/class-wc-rest-orders-controller.php:969
 msgid "The date the order was last modified, as GMT."
 msgstr "Tellimuse viimase muutmise kuupäev, GMT väärtusena."
 
-#: includes/api/class-wc-rest-orders-controller.php:832
+#: includes/api/class-wc-rest-orders-controller.php:827
 #: includes/api/v1/class-wc-rest-orders-controller.php:951
 msgid "Version of WooCommerce which last updated the order."
 msgstr "Tellimust viimati uuendanud WooCommerce'i versioon."
@@ -3367,7 +3375,7 @@ msgid "The date the customer was last modified, as GMT."
 msgstr "Kliendi muutmise viimane kuupäev, GMT väärtusena."
 
 #: includes/api/class-wc-rest-customers-controller.php:140
-#: includes/api/class-wc-rest-orders-controller.php:858
+#: includes/api/class-wc-rest-orders-controller.php:853
 #: includes/api/v1/class-wc-rest-orders-controller.php:963
 msgid "The date the order was created, as GMT."
 msgstr "Tellimuse loomise kuupäev, GMT väärtusena."
@@ -3380,14 +3388,14 @@ msgstr "Allalaadimise ligipääsu aegumiskuupäev, GMT väärtusena."
 #: includes/api/class-wc-rest-customers-controller.php:345
 #: includes/api/class-wc-rest-order-refunds-controller.php:391
 #: includes/api/class-wc-rest-order-refunds-controller.php:503
-#: includes/api/class-wc-rest-orders-controller.php:1114
-#: includes/api/class-wc-rest-orders-controller.php:1226
-#: includes/api/class-wc-rest-orders-controller.php:1317
-#: includes/api/class-wc-rest-orders-controller.php:1403
-#: includes/api/class-wc-rest-orders-controller.php:1501
-#: includes/api/class-wc-rest-orders-controller.php:1559
+#: includes/api/class-wc-rest-orders-controller.php:1109
+#: includes/api/class-wc-rest-orders-controller.php:1221
+#: includes/api/class-wc-rest-orders-controller.php:1312
+#: includes/api/class-wc-rest-orders-controller.php:1398
+#: includes/api/class-wc-rest-orders-controller.php:1496
+#: includes/api/class-wc-rest-orders-controller.php:1554
 #: includes/api/class-wc-rest-product-variations-controller.php:936
-#: includes/api/class-wc-rest-products-controller.php:1979
+#: includes/api/class-wc-rest-products-controller.php:1982
 msgid "Meta ID."
 msgstr "Meta ID."
 
@@ -3395,14 +3403,14 @@ msgstr "Meta ID."
 #: includes/api/class-wc-rest-customers-controller.php:338
 #: includes/api/class-wc-rest-order-refunds-controller.php:384
 #: includes/api/class-wc-rest-order-refunds-controller.php:496
-#: includes/api/class-wc-rest-orders-controller.php:1107
-#: includes/api/class-wc-rest-orders-controller.php:1219
-#: includes/api/class-wc-rest-orders-controller.php:1310
-#: includes/api/class-wc-rest-orders-controller.php:1396
-#: includes/api/class-wc-rest-orders-controller.php:1494
-#: includes/api/class-wc-rest-orders-controller.php:1552
+#: includes/api/class-wc-rest-orders-controller.php:1102
+#: includes/api/class-wc-rest-orders-controller.php:1214
+#: includes/api/class-wc-rest-orders-controller.php:1305
+#: includes/api/class-wc-rest-orders-controller.php:1391
+#: includes/api/class-wc-rest-orders-controller.php:1489
+#: includes/api/class-wc-rest-orders-controller.php:1547
 #: includes/api/class-wc-rest-product-variations-controller.php:929
-#: includes/api/class-wc-rest-products-controller.php:1972
+#: includes/api/class-wc-rest-products-controller.php:1975
 msgid "Meta data."
 msgstr "Meta andmed."
 
@@ -3769,15 +3777,15 @@ msgstr "Vali kategooria, mille statistikat vaadata"
 msgid "%1$s sales in %2$s"
 msgstr "Kategoorias %2$s müüdi %1$s toodet"
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:348
+#: includes/admin/meta-boxes/views/html-variation-admin.php:352
 msgid "Add file"
 msgstr "Lisa fail"
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:311
+#: includes/admin/meta-boxes/views/html-variation-admin.php:315
 msgid "Enter an optional description for this variation."
 msgstr "Soovi korral sisesta selle variatsiooni kirjeldus."
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:243
+#: includes/admin/meta-boxes/views/html-variation-admin.php:247
 msgid "Length x width x height in decimal form"
 msgstr "Pikkus x laius x kõrgus kümnendsüsteemis"
 
@@ -3906,8 +3914,8 @@ msgstr "%1$s &ndash; leht %2$d / %3$d"
 msgid "Tool does not exist."
 msgstr "Seda tööriista pole."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:995
-#: includes/admin/class-wc-admin-setup-wizard.php:999
+#: includes/admin/class-wc-admin-setup-wizard.php:993
+#: includes/admin/class-wc-admin-setup-wizard.php:997
 msgid "Safe and secure payments using credit cards or your customer's PayPal account. <a href=\"%s\" target=\"_blank\">Learn more</a>."
 msgstr "Ohutud ja turvalised maksed krediitkaardi või kliendi PayPal konto kaudu. <a href=\"%s\" target=\"_blank\">Uuri lähemalt</a>."
 
@@ -3925,8 +3933,8 @@ msgstr "%1$s (%2$s)"
 #: includes/admin/settings/class-wc-settings-general.php:64
 #: includes/api/class-wc-rest-customers-controller.php:224
 #: includes/api/class-wc-rest-customers-controller.php:287
-#: includes/api/class-wc-rest-orders-controller.php:972
-#: includes/api/class-wc-rest-orders-controller.php:1035
+#: includes/api/class-wc-rest-orders-controller.php:967
+#: includes/api/class-wc-rest-orders-controller.php:1030
 msgid "Address line 2"
 msgstr "Aadressirida 2"
 
@@ -3937,8 +3945,8 @@ msgstr "Aadressirida 2"
 #: includes/admin/settings/class-wc-settings-general.php:55
 #: includes/api/class-wc-rest-customers-controller.php:219
 #: includes/api/class-wc-rest-customers-controller.php:282
-#: includes/api/class-wc-rest-orders-controller.php:967
-#: includes/api/class-wc-rest-orders-controller.php:1030
+#: includes/api/class-wc-rest-orders-controller.php:962
+#: includes/api/class-wc-rest-orders-controller.php:1025
 msgid "Address line 1"
 msgstr "Aadressirida 1"
 
@@ -4616,7 +4624,7 @@ msgstr "Selles tsoonis ei pakuta ühtegi tarnemeetodit."
 msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique and can be left blank to disable the endpoint."
 msgstr "Sihtpunktid lisatakse lehe aadressi otsa tegelemaks konto lehtedel tehtavate tegevustega. Nad peavad olema unikaalsed ning nende tühjaks jätmine lülitab selle lõpp-punkti välja."
 
-#: includes/wc-core-functions.php:371
+#: includes/wc-core-functions.php:372
 msgid "North Korean won"
 msgstr "Põhja-Korea vonn"
 
@@ -4726,427 +4734,427 @@ msgstr "Viga mujal asuva pildi %s tõmbamisel."
 msgid "Invalid URL %s."
 msgstr "URL %s on vigane."
 
-#: includes/wc-core-functions.php:1248
+#: includes/wc-core-functions.php:1250
 msgid "JCB"
 msgstr "JCB"
 
-#: includes/wc-core-functions.php:1247
+#: includes/wc-core-functions.php:1249
 msgid "Diners"
 msgstr "Diners"
 
-#: includes/wc-core-functions.php:1246
+#: includes/wc-core-functions.php:1248
 msgid "American Express"
 msgstr "American Express"
 
-#: includes/wc-core-functions.php:1245
+#: includes/wc-core-functions.php:1247
 msgid "Discover"
 msgstr "Discover"
 
-#: includes/wc-core-functions.php:1244
+#: includes/wc-core-functions.php:1246
 msgid "Visa"
 msgstr "Visa"
 
-#: includes/wc-core-functions.php:1243
+#: includes/wc-core-functions.php:1245
 msgid "MasterCard"
 msgstr "MasterCard"
 
-#: includes/wc-core-functions.php:454
+#: includes/wc-core-functions.php:455
 msgid "Zambian kwacha"
 msgstr "Sambia kvatša"
 
-#: includes/wc-core-functions.php:452
+#: includes/wc-core-functions.php:453
 msgid "Yemeni rial"
 msgstr "Jeemeni riaal"
 
-#: includes/wc-core-functions.php:451
+#: includes/wc-core-functions.php:452
 msgid "CFP franc"
 msgstr "CFP frank"
 
-#: includes/wc-core-functions.php:450
+#: includes/wc-core-functions.php:451
 msgid "West African CFA franc"
 msgstr "Lääne-Aafrika CFA frank"
 
-#: includes/wc-core-functions.php:449
+#: includes/wc-core-functions.php:450
 msgid "East Caribbean dollar"
 msgstr "Ida-Kariibi dollar"
 
-#: includes/wc-core-functions.php:448
+#: includes/wc-core-functions.php:449
 msgid "Central African CFA franc"
 msgstr "Kesk-Aafrika CFA frank"
 
-#: includes/wc-core-functions.php:447
+#: includes/wc-core-functions.php:448
 msgid "Samoan t&#x101;l&#x101;"
 msgstr "Samoa t&#x101;l&#x101;"
 
-#: includes/wc-core-functions.php:446
+#: includes/wc-core-functions.php:447
 msgid "Vanuatu vatu"
 msgstr "Vanuatu vatu"
 
-#: includes/wc-core-functions.php:445
+#: includes/wc-core-functions.php:446
 msgid "Vietnamese &#x111;&#x1ed3;ng"
 msgstr "Vietnami &#x111;&#x1ed3;ng"
 
-#: includes/wc-core-functions.php:444
+#: includes/wc-core-functions.php:445
 msgid "Venezuelan bol&iacute;var"
 msgstr "Venetsueela bol&iacute;var"
 
-#: includes/wc-core-functions.php:443
+#: includes/wc-core-functions.php:444
 msgid "Uzbekistani som"
 msgstr "Usbekistani som"
 
-#: includes/wc-core-functions.php:442
+#: includes/wc-core-functions.php:443
 msgid "Uruguayan peso"
 msgstr "Uruguai peeso"
 
-#: includes/wc-core-functions.php:441
+#: includes/wc-core-functions.php:442
 msgid "United States dollar"
 msgstr "Ameerika Ühendriikide dollar"
 
-#: includes/wc-core-functions.php:440
+#: includes/wc-core-functions.php:441
 msgid "Ugandan shilling"
 msgstr "Uganda šilling"
 
-#: includes/wc-core-functions.php:438
+#: includes/wc-core-functions.php:439
 msgid "Tanzanian shilling"
 msgstr "Tansaania šilling"
 
-#: includes/wc-core-functions.php:437
+#: includes/wc-core-functions.php:438
 msgid "New Taiwan dollar"
 msgstr "Uus Taiwani dollar"
 
-#: includes/wc-core-functions.php:436
+#: includes/wc-core-functions.php:437
 msgid "Trinidad and Tobago dollar"
 msgstr "Trinidadi ja Tobago dollar"
 
-#: includes/wc-core-functions.php:434
+#: includes/wc-core-functions.php:435
 msgid "Tongan pa&#x2bb;anga"
 msgstr "Tonga pa&#x2bb;anga"
 
-#: includes/wc-core-functions.php:433
+#: includes/wc-core-functions.php:434
 msgid "Tunisian dinar"
 msgstr "Tuneesia denaar"
 
-#: includes/wc-core-functions.php:432
+#: includes/wc-core-functions.php:433
 msgid "Turkmenistan manat"
 msgstr "Türkmenistani manat"
 
-#: includes/wc-core-functions.php:431
+#: includes/wc-core-functions.php:432
 msgid "Tajikistani somoni"
 msgstr "Tadžikistani somoni"
 
-#: includes/wc-core-functions.php:429
+#: includes/wc-core-functions.php:430
 msgid "Swazi lilangeni"
 msgstr "Svaasi lilangeni"
 
-#: includes/wc-core-functions.php:428
+#: includes/wc-core-functions.php:429
 msgid "Syrian pound"
 msgstr "Süüria nael"
 
-#: includes/wc-core-functions.php:427
+#: includes/wc-core-functions.php:428
 msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
 msgstr "Sao Tome ja Principe dobra"
 
-#: includes/wc-core-functions.php:426
+#: includes/wc-core-functions.php:427
 msgid "South Sudanese pound"
 msgstr "Lõuna-Sudaani nael"
 
-#: includes/wc-core-functions.php:425
+#: includes/wc-core-functions.php:426
 msgid "Surinamese dollar"
 msgstr "Surinami dollar"
 
-#: includes/wc-core-functions.php:424
+#: includes/wc-core-functions.php:425
 msgid "Somali shilling"
 msgstr "Somaali šilling"
 
-#: includes/wc-core-functions.php:423
+#: includes/wc-core-functions.php:424
 msgid "Sierra Leonean leone"
 msgstr "Sierra Leone leone"
 
-#: includes/wc-core-functions.php:422
+#: includes/wc-core-functions.php:423
 msgid "Saint Helena pound"
 msgstr "Saint Helena nael"
 
-#: includes/wc-core-functions.php:419
+#: includes/wc-core-functions.php:420
 msgid "Sudanese pound"
 msgstr "Sudaani nael"
 
-#: includes/wc-core-functions.php:418
+#: includes/wc-core-functions.php:419
 msgid "Seychellois rupee"
 msgstr "Seišellide ruupia"
 
-#: includes/wc-core-functions.php:417
+#: includes/wc-core-functions.php:418
 msgid "Solomon Islands dollar"
 msgstr "Saalomoni Saarte dollar"
 
-#: includes/wc-core-functions.php:415
+#: includes/wc-core-functions.php:416
 msgid "Rwandan franc"
 msgstr "Ruanda frank"
 
-#: includes/wc-core-functions.php:413
+#: includes/wc-core-functions.php:414
 msgid "Serbian dinar"
 msgstr "Serbia denaar"
 
-#: includes/wc-core-functions.php:411
+#: includes/wc-core-functions.php:412
 msgid "Qatari riyal"
 msgstr "Qatari riaal"
 
-#: includes/wc-core-functions.php:410
+#: includes/wc-core-functions.php:411
 msgid "Paraguayan guaran&iacute;"
 msgstr "Paraguay guarani"
 
-#: includes/wc-core-functions.php:409
+#: includes/wc-core-functions.php:410
 msgid "Transnistrian ruble"
 msgstr "Transnistria rubla"
 
-#: includes/wc-core-functions.php:408
+#: includes/wc-core-functions.php:409
 msgid "Polish z&#x142;oty"
 msgstr "Poola zlott"
 
-#: includes/wc-core-functions.php:405
+#: includes/wc-core-functions.php:406
 msgid "Papua New Guinean kina"
 msgstr "Paapua Uus-Guinea kina"
 
-#: includes/wc-core-functions.php:404
+#: includes/wc-core-functions.php:405
 msgid "Peruvian nuevo sol"
 msgstr "Peruu uus soll"
 
-#: includes/wc-core-functions.php:403
+#: includes/wc-core-functions.php:404
 msgid "Panamanian balboa"
 msgstr "Panama balboa"
 
-#: includes/wc-core-functions.php:402
+#: includes/wc-core-functions.php:403
 msgid "Omani rial"
 msgstr "Omaani riaal"
 
-#: includes/wc-core-functions.php:400
+#: includes/wc-core-functions.php:401
 msgid "Nepalese rupee"
 msgstr "Nepaali ruupia"
 
-#: includes/wc-core-functions.php:398
+#: includes/wc-core-functions.php:399
 msgid "Nicaraguan c&oacute;rdoba"
 msgstr "Nicaragua kordoba"
 
-#: includes/wc-core-functions.php:396
+#: includes/wc-core-functions.php:397
 msgid "Namibian dollar"
 msgstr "Namiibia dollar"
 
-#: includes/wc-core-functions.php:395
+#: includes/wc-core-functions.php:396
 msgid "Mozambican metical"
 msgstr "Mosambiigi metikal"
 
-#: includes/wc-core-functions.php:392
+#: includes/wc-core-functions.php:393
 msgid "Malawian kwacha"
 msgstr "Malawi kvatša"
 
-#: includes/wc-core-functions.php:391
+#: includes/wc-core-functions.php:392
 msgid "Maldivian rufiyaa"
 msgstr "Maldiivi ruupia"
 
-#: includes/wc-core-functions.php:390
+#: includes/wc-core-functions.php:391
 msgid "Mauritian rupee"
 msgstr "Mauriitia ruupia"
 
-#: includes/wc-core-functions.php:389
+#: includes/wc-core-functions.php:390
 msgid "Mauritanian ouguiya"
 msgstr "Mauritaania ouguija"
 
-#: includes/wc-core-functions.php:388
+#: includes/wc-core-functions.php:389
 msgid "Macanese pataca"
 msgstr "Macau pataaka"
 
-#: includes/wc-core-functions.php:387
+#: includes/wc-core-functions.php:388
 msgid "Mongolian t&ouml;gr&ouml;g"
 msgstr "Mongoolia t&ouml;gr&ouml;g"
 
-#: includes/wc-core-functions.php:386
+#: includes/wc-core-functions.php:387
 msgid "Burmese kyat"
 msgstr "Birma kjatt"
 
-#: includes/wc-core-functions.php:385
+#: includes/wc-core-functions.php:386
 msgid "Macedonian denar"
 msgstr "Makedoonia denaar"
 
-#: includes/wc-core-functions.php:384
+#: includes/wc-core-functions.php:385
 msgid "Malagasy ariary"
 msgstr "Madagaskari ariari"
 
-#: includes/wc-core-functions.php:383
+#: includes/wc-core-functions.php:384
 msgid "Moldovan leu"
 msgstr "Moldova leu"
 
-#: includes/wc-core-functions.php:382
+#: includes/wc-core-functions.php:383
 msgid "Moroccan dirham"
 msgstr "Maroko dirham"
 
-#: includes/wc-core-functions.php:381
+#: includes/wc-core-functions.php:382
 msgid "Libyan dinar"
 msgstr "Liibüa denaar"
 
-#: includes/wc-core-functions.php:380
+#: includes/wc-core-functions.php:381
 msgid "Lesotho loti"
 msgstr "Lesotho loti"
 
-#: includes/wc-core-functions.php:379
+#: includes/wc-core-functions.php:380
 msgid "Liberian dollar"
 msgstr "Libeeria dollar"
 
-#: includes/wc-core-functions.php:378
+#: includes/wc-core-functions.php:379
 msgid "Sri Lankan rupee"
 msgstr "Sri Lanka ruupia"
 
-#: includes/wc-core-functions.php:377
+#: includes/wc-core-functions.php:378
 msgid "Lebanese pound"
 msgstr "Liibanoni nael"
 
-#: includes/wc-core-functions.php:375
+#: includes/wc-core-functions.php:376
 msgid "Kazakhstani tenge"
 msgstr "Kasahstani tenge"
 
-#: includes/wc-core-functions.php:374
+#: includes/wc-core-functions.php:375
 msgid "Cayman Islands dollar"
 msgstr "Kaimanisaarte dollar"
 
-#: includes/wc-core-functions.php:373
+#: includes/wc-core-functions.php:374
 msgid "Kuwaiti dinar"
 msgstr "Kuveidi denaar"
 
-#: includes/wc-core-functions.php:370
+#: includes/wc-core-functions.php:371
 msgid "Comorian franc"
 msgstr "Komooride frank"
 
-#: includes/wc-core-functions.php:369
+#: includes/wc-core-functions.php:370
 msgid "Cambodian riel"
 msgstr "Kambodža riaal"
 
-#: includes/wc-core-functions.php:368
+#: includes/wc-core-functions.php:369
 msgid "Kyrgyzstani som"
 msgstr "Kõrgõstani som"
 
-#: includes/wc-core-functions.php:365
+#: includes/wc-core-functions.php:366
 msgid "Jordanian dinar"
 msgstr "Jordaania denaar"
 
-#: includes/wc-core-functions.php:364
+#: includes/wc-core-functions.php:365
 msgid "Jamaican dollar"
 msgstr "Jamaica dollar"
 
-#: includes/wc-core-functions.php:363
+#: includes/wc-core-functions.php:364
 msgid "Jersey pound"
 msgstr "Jersey nael"
 
-#: includes/wc-core-functions.php:362
+#: includes/wc-core-functions.php:363
 msgid "Icelandic kr&oacute;na"
 msgstr "Islandi kroon"
 
-#: includes/wc-core-functions.php:360
+#: includes/wc-core-functions.php:361
 msgid "Iranian rial"
 msgstr "Iraani riaal"
 
-#: includes/wc-core-functions.php:359
+#: includes/wc-core-functions.php:360
 msgid "Iraqi dinar"
 msgstr "Iraagi denaar"
 
-#: includes/wc-core-functions.php:357
+#: includes/wc-core-functions.php:358
 msgid "Manx pound"
 msgstr "Manx nael"
 
-#: includes/wc-core-functions.php:356
+#: includes/wc-core-functions.php:357
 msgid "Israeli new shekel"
 msgstr "Iisraeli uus seekel"
 
-#: includes/wc-core-functions.php:353
+#: includes/wc-core-functions.php:354
 msgid "Haitian gourde"
 msgstr "Haiti gurd"
 
-#: includes/wc-core-functions.php:351
+#: includes/wc-core-functions.php:352
 msgid "Honduran lempira"
 msgstr "Hondurase lempira"
 
-#: includes/wc-core-functions.php:349
+#: includes/wc-core-functions.php:350
 msgid "Guyanese dollar"
 msgstr "Guyana dollar"
 
-#: includes/wc-core-functions.php:348
+#: includes/wc-core-functions.php:349
 msgid "Guatemalan quetzal"
 msgstr "Guatemala ketsaal"
 
-#: includes/wc-core-functions.php:347
+#: includes/wc-core-functions.php:348
 msgid "Guinean franc"
 msgstr "Guinea frank"
 
-#: includes/wc-core-functions.php:346
+#: includes/wc-core-functions.php:347
 msgid "Gambian dalasi"
 msgstr "Gambia dalasi"
 
-#: includes/wc-core-functions.php:345
+#: includes/wc-core-functions.php:346
 msgid "Gibraltar pound"
 msgstr "Gibraltari nael"
 
-#: includes/wc-core-functions.php:344
+#: includes/wc-core-functions.php:345
 msgid "Ghana cedi"
 msgstr "Ghana sedi"
 
-#: includes/wc-core-functions.php:343
+#: includes/wc-core-functions.php:344
 msgid "Guernsey pound"
 msgstr "Guernsey nael"
 
-#: includes/wc-core-functions.php:342
+#: includes/wc-core-functions.php:343
 msgid "Georgian lari"
 msgstr "Gruusia lari"
 
-#: includes/wc-core-functions.php:340
+#: includes/wc-core-functions.php:341
 msgid "Falkland Islands pound"
 msgstr "Falklandi Saarte nael"
 
-#: includes/wc-core-functions.php:339
+#: includes/wc-core-functions.php:340
 msgid "Fijian dollar"
 msgstr "Fidži dollar"
 
-#: includes/wc-core-functions.php:338
+#: includes/wc-core-functions.php:339
 msgid "Euro"
 msgstr "Euro"
 
-#: includes/wc-core-functions.php:337
+#: includes/wc-core-functions.php:338
 msgid "Ethiopian birr"
 msgstr "Etioopia birr"
 
-#: includes/wc-core-functions.php:336
+#: includes/wc-core-functions.php:337
 msgid "Eritrean nakfa"
 msgstr "Eritrea nakfa"
 
-#: includes/wc-core-functions.php:334
+#: includes/wc-core-functions.php:335
 msgid "Algerian dinar"
 msgstr "Alžeeria denaar"
 
-#: includes/wc-core-functions.php:331
+#: includes/wc-core-functions.php:332
 msgid "Djiboutian franc"
 msgstr "Djibouti frank"
 
-#: includes/wc-core-functions.php:329
+#: includes/wc-core-functions.php:330
 msgid "Cape Verdean escudo"
 msgstr "Cabo Verde eskuudo"
 
-#: includes/wc-core-functions.php:328
+#: includes/wc-core-functions.php:329
 msgid "Cuban peso"
 msgstr "Kuuba peeso"
 
-#: includes/wc-core-functions.php:327
+#: includes/wc-core-functions.php:328
 msgid "Cuban convertible peso"
 msgstr "Kuuba peeso"
 
-#: includes/wc-core-functions.php:326
+#: includes/wc-core-functions.php:327
 msgid "Costa Rican col&oacute;n"
 msgstr "Costa Rica colon"
 
-#: includes/wc-core-functions.php:321
+#: includes/wc-core-functions.php:322
 msgid "Congolese franc"
 msgstr "Kongo frank"
 
-#: includes/wc-core-functions.php:319
+#: includes/wc-core-functions.php:320
 msgid "Belize dollar"
 msgstr "Belize dollar"
 
-#: includes/wc-core-functions.php:318
+#: includes/wc-core-functions.php:319
 msgid "Belarusian ruble"
 msgstr "Valgevene rubla"
 
@@ -5762,58 +5770,58 @@ msgstr "Netomüük perioodi jooksul."
 msgid "Gross sales in the period."
 msgstr "Brutomüük perioodi jooksul."
 
-#: includes/api/class-wc-rest-products-controller.php:2032
+#: includes/api/class-wc-rest-products-controller.php:2035
 #: includes/api/v1/class-wc-rest-products-controller.php:2630
 msgid "Limit result set to products with a specific SKU."
 msgstr "Piira tulemusi kindla tootekoodiga toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:2068
+#: includes/api/class-wc-rest-products-controller.php:2071
 #: includes/api/v1/class-wc-rest-products-controller.php:2624
 msgid "Limit result set to products with a specific attribute term ID (required an assigned attribute)."
 msgstr "Piira tulemusi kindla omaduse termini ID-ga toodetele (eeldab, et omadus on tootele määratud)."
 
-#: includes/api/class-wc-rest-products-controller.php:2062
+#: includes/api/class-wc-rest-products-controller.php:2065
 #: includes/api/v1/class-wc-rest-products-controller.php:2618
 msgid "Limit result set to products with a specific attribute."
 msgstr "Piira tulemusi kindla omadusega toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:2056
+#: includes/api/class-wc-rest-products-controller.php:2059
 #: includes/api/v1/class-wc-rest-products-controller.php:2612
 msgid "Limit result set to products assigned a specific shipping class ID."
 msgstr "Piira tulemusi toodetele, millega on seotud kindla ID-ga tarneklassid."
 
-#: includes/api/class-wc-rest-products-controller.php:2050
+#: includes/api/class-wc-rest-products-controller.php:2053
 #: includes/api/v1/class-wc-rest-products-controller.php:2606
 msgid "Limit result set to products assigned a specific tag ID."
 msgstr "Piira tulemusi toodetele, millega on seotud kindla ID-ga sildid."
 
-#: includes/api/class-wc-rest-products-controller.php:2044
+#: includes/api/class-wc-rest-products-controller.php:2047
 #: includes/api/v1/class-wc-rest-products-controller.php:2600
 msgid "Limit result set to products assigned a specific category ID."
 msgstr "Piira tulemusi toodetele, millega on seotud kindla ID-ga kategooriad."
 
-#: includes/api/class-wc-rest-products-controller.php:2025
+#: includes/api/class-wc-rest-products-controller.php:2028
 #: includes/api/v1/class-wc-rest-products-controller.php:2593
 msgid "Limit result set to products assigned a specific type."
 msgstr "Piira tulemusi kindlat tüüpi toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:2018
+#: includes/api/class-wc-rest-products-controller.php:2021
 #: includes/api/v1/class-wc-rest-products-controller.php:2586
 msgid "Limit result set to products assigned a specific status."
 msgstr "Piira tulemusi kindlas olekus toodetele."
 
-#: includes/api/class-wc-rest-products-controller.php:2012
+#: includes/api/class-wc-rest-products-controller.php:2015
 #: includes/api/v1/class-wc-rest-products-controller.php:2580
 msgid "Limit result set to products with a specific slug."
 msgstr "Piira tulemusi kindla toote püsiviite järgi."
 
 #: includes/api/class-wc-rest-product-variations-controller.php:924
-#: includes/api/class-wc-rest-products-controller.php:1967
+#: includes/api/class-wc-rest-products-controller.php:1970
 #: includes/api/v1/class-wc-rest-products-controller.php:2561
 msgid "Menu order, used to custom sort products."
 msgstr "Menüüjärjekord, kasutatakse toodete järjekorra käsitsi määramiseks."
 
-#: includes/api/class-wc-rest-products-controller.php:1959
+#: includes/api/class-wc-rest-products-controller.php:1962
 #: includes/api/v1/class-wc-rest-products-controller.php:2552
 msgid "List of grouped products ID."
 msgstr "Grupeeritud toodete ID-de nimekiri."
@@ -5926,13 +5934,13 @@ msgid "List of variations."
 msgstr "Variatsioonide nimekiri."
 
 #: includes/api/class-wc-rest-product-variations-controller.php:916
-#: includes/api/class-wc-rest-products-controller.php:1942
+#: includes/api/class-wc-rest-products-controller.php:1945
 #: includes/api/v1/class-wc-rest-products-controller.php:2251
 #: includes/api/v1/class-wc-rest-products-controller.php:2541
 msgid "Selected attribute term name."
 msgstr "Valitud omaduse väärtuse nimetus."
 
-#: includes/api/class-wc-rest-products-controller.php:1925
+#: includes/api/class-wc-rest-products-controller.php:1928
 #: includes/api/v1/class-wc-rest-products-controller.php:2234
 msgid "Defaults variation attributes."
 msgstr "Vaikimisi aktiivse variatsiooni omadused."
@@ -5959,7 +5967,7 @@ msgstr "Omaduse positsioon."
 
 #: includes/api/class-wc-rest-product-variations-controller.php:906
 #: includes/api/class-wc-rest-products-controller.php:1890
-#: includes/api/class-wc-rest-products-controller.php:1932
+#: includes/api/class-wc-rest-products-controller.php:1935
 #: includes/api/v1/class-wc-rest-products-controller.php:2199
 #: includes/api/v1/class-wc-rest-products-controller.php:2241
 #: includes/api/v1/class-wc-rest-products-controller.php:2531
@@ -6425,7 +6433,7 @@ msgstr "Omaduse tüüp."
 
 #: includes/api/class-wc-rest-product-variations-controller.php:911
 #: includes/api/class-wc-rest-products-controller.php:1895
-#: includes/api/class-wc-rest-products-controller.php:1937
+#: includes/api/class-wc-rest-products-controller.php:1940
 #: includes/api/v1/class-wc-rest-product-attributes-controller.php:462
 #: includes/api/v1/class-wc-rest-products-controller.php:2204
 #: includes/api/v1/class-wc-rest-products-controller.php:2246
@@ -6468,265 +6476,265 @@ msgstr "Ressursi tähtnumbriline identifikaator, mis on tema tüübi piires unik
 msgid "Term name."
 msgstr "Termini nimi."
 
-#: includes/api/class-wc-rest-orders-controller.php:1644
+#: includes/api/class-wc-rest-orders-controller.php:1639
 #: includes/api/v1/class-wc-rest-orders-controller.php:1606
 msgid "Limit result set to orders assigned a specific product."
 msgstr "Piira tulemusi kindlat toodet sisaldavatele tellimustele."
 
-#: includes/api/class-wc-rest-orders-controller.php:1638
+#: includes/api/class-wc-rest-orders-controller.php:1633
 #: includes/api/v1/class-wc-rest-orders-controller.php:1600
 msgid "Limit result set to orders assigned a specific customer."
 msgstr "Piira tulemusi kindla kliendi tellimustele."
 
-#: includes/api/class-wc-rest-orders-controller.php:1631
+#: includes/api/class-wc-rest-orders-controller.php:1626
 #: includes/api/v1/class-wc-rest-orders-controller.php:1593
 msgid "Limit result set to orders assigned a specific status."
 msgstr "Piira tulemusi kindlas olekus tellimustele."
 
-#: includes/api/class-wc-rest-orders-controller.php:1601
+#: includes/api/class-wc-rest-orders-controller.php:1596
 #: includes/api/v1/class-wc-rest-orders-controller.php:1569
 msgid "Refund total."
 msgstr "Tagasimakse summa."
 
-#: includes/api/class-wc-rest-orders-controller.php:1595
+#: includes/api/class-wc-rest-orders-controller.php:1590
 #: includes/api/v1/class-wc-rest-orders-controller.php:1563
 msgid "Refund reason."
 msgstr "Tagasimakse põhjus."
 
-#: includes/api/class-wc-rest-orders-controller.php:1589
+#: includes/api/class-wc-rest-orders-controller.php:1584
 #: includes/api/v1/class-wc-rest-orders-controller.php:1557
 #: includes/cli/class-wc-cli-runner.php:104
 msgid "Refund ID."
 msgstr "Tagasimakse ID."
 
-#: includes/api/class-wc-rest-orders-controller.php:1581
+#: includes/api/class-wc-rest-orders-controller.php:1576
 #: includes/api/v1/class-wc-rest-orders-controller.php:1549
 msgid "List of refunds."
 msgstr "Tagasimaksete nimekiri."
 
-#: includes/api/class-wc-rest-orders-controller.php:1546
+#: includes/api/class-wc-rest-orders-controller.php:1541
 #: includes/api/v1/class-wc-rest-orders-controller.php:1540
 msgid "Discount total tax."
 msgstr "Allahindluste maksude kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:1541
+#: includes/api/class-wc-rest-orders-controller.php:1536
 #: includes/api/v1/class-wc-rest-orders-controller.php:1535
 msgid "Discount total."
 msgstr "Allahindluste kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:1523
+#: includes/api/class-wc-rest-orders-controller.php:1518
 #: includes/api/v1/class-wc-rest-orders-controller.php:1517
 msgid "Coupons line data."
 msgstr "Kupongide ridade andmed."
 
-#: includes/api/class-wc-rest-orders-controller.php:1448
+#: includes/api/class-wc-rest-orders-controller.php:1443
 #: includes/api/v1/class-wc-rest-orders-controller.php:1469
 msgid "Tax status of fee."
 msgstr "Teenustasu maksustatavus."
 
-#: includes/api/class-wc-rest-orders-controller.php:1443
+#: includes/api/class-wc-rest-orders-controller.php:1438
 #: includes/api/v1/class-wc-rest-orders-controller.php:1464
 msgid "Tax class of fee."
 msgstr "Teenustasu maksuklass."
 
-#: includes/api/class-wc-rest-orders-controller.php:1438
+#: includes/api/class-wc-rest-orders-controller.php:1433
 #: includes/api/v1/class-wc-rest-orders-controller.php:1459
 msgid "Fee name."
 msgstr "Teenustasu nimi."
 
-#: includes/api/class-wc-rest-orders-controller.php:1425
+#: includes/api/class-wc-rest-orders-controller.php:1420
 #: includes/api/v1/class-wc-rest-orders-controller.php:1446
 msgid "Fee lines data."
 msgstr "Teenustasude ridade andmed."
 
-#: includes/api/class-wc-rest-orders-controller.php:1357
+#: includes/api/class-wc-rest-orders-controller.php:1352
 #: includes/api/class-wc-rest-shipping-zone-methods-controller.php:49
 #: includes/api/class-wc-rest-shipping-zone-methods-controller.php:462
 #: includes/api/v1/class-wc-rest-orders-controller.php:1404
 msgid "Shipping method ID."
 msgstr "Tarnemeetodi ID."
 
-#: includes/api/class-wc-rest-orders-controller.php:1352
+#: includes/api/class-wc-rest-orders-controller.php:1347
 #: includes/api/v1/class-wc-rest-orders-controller.php:1399
 msgid "Shipping method name."
 msgstr "Tarnemeetodi nimi."
 
-#: includes/api/class-wc-rest-orders-controller.php:1339
+#: includes/api/class-wc-rest-orders-controller.php:1334
 #: includes/api/v1/class-wc-rest-orders-controller.php:1386
 msgid "Shipping lines data."
 msgstr "Tarne ridade andmed."
 
-#: includes/api/class-wc-rest-orders-controller.php:1304
+#: includes/api/class-wc-rest-orders-controller.php:1299
 #: includes/api/v1/class-wc-rest-orders-controller.php:1377
 msgid "Shipping tax total."
 msgstr "Tarne maksude kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:1298
+#: includes/api/class-wc-rest-orders-controller.php:1293
 #: includes/api/v1/class-wc-rest-orders-controller.php:1371
 msgid "Tax total (not including shipping taxes)."
 msgstr "Maksude kogusumma (välja arvatud tarne maksud)."
 
-#: includes/api/class-wc-rest-orders-controller.php:1292
+#: includes/api/class-wc-rest-orders-controller.php:1287
 #: includes/api/v1/class-wc-rest-orders-controller.php:1365
 msgid "Show if is a compound tax rate."
 msgstr "Näita, kas tegemist on liitmaksumääraga."
 
-#: includes/api/class-wc-rest-orders-controller.php:1286
+#: includes/api/class-wc-rest-orders-controller.php:1281
 #: includes/api/v1/class-wc-rest-orders-controller.php:1359
 msgid "Tax rate label."
 msgstr "Maksumäära silt."
 
-#: includes/api/class-wc-rest-orders-controller.php:1274
+#: includes/api/class-wc-rest-orders-controller.php:1269
 #: includes/api/v1/class-wc-rest-orders-controller.php:1347
 msgid "Tax rate code."
 msgstr "Mäksumäära kood."
 
-#: includes/api/class-wc-rest-orders-controller.php:1260
+#: includes/api/class-wc-rest-orders-controller.php:1255
 #: includes/api/v1/class-wc-rest-orders-controller.php:1333
 msgid "Tax lines data."
 msgstr "Maksuridade andmed."
 
-#: includes/api/class-wc-rest-orders-controller.php:1101
+#: includes/api/class-wc-rest-orders-controller.php:1096
 #: includes/api/v1/class-wc-rest-orders-controller.php:1194
 msgid "MD5 hash of cart items to ensure orders are not modified."
 msgstr "Ostukorvi toodete MD5 räsi kindlustamaks, et tellimust pole muudetud."
 
-#: includes/api/class-wc-rest-orders-controller.php:1077
+#: includes/api/class-wc-rest-orders-controller.php:1072
 #: includes/api/v1/class-wc-rest-orders-controller.php:1188
 msgid "The date the order was paid, in the site's timezone."
 msgstr "Tellimuse eest tasumise kuupäev, veebilehe ajavööndis."
 
-#: includes/api/class-wc-rest-orders-controller.php:1089
+#: includes/api/class-wc-rest-orders-controller.php:1084
 #: includes/api/v1/class-wc-rest-orders-controller.php:1182
 msgid "The date the order was completed, in the site's timezone."
 msgstr "Tellimuse täitmise kuupäev, veebilehe ajavööndis."
 
-#: includes/api/class-wc-rest-orders-controller.php:942
+#: includes/api/class-wc-rest-orders-controller.php:937
 #: includes/api/v1/class-wc-rest-orders-controller.php:1177
 msgid "Note left by customer during checkout."
 msgstr "Kliendi poolt kassas jäetud märkus."
 
-#: includes/api/class-wc-rest-orders-controller.php:826
+#: includes/api/class-wc-rest-orders-controller.php:821
 #: includes/api/v1/class-wc-rest-orders-controller.php:1171
 msgid "Shows where the order was created."
 msgstr "Näitab, kus tellimus loodi."
 
-#: includes/api/class-wc-rest-orders-controller.php:936
+#: includes/api/class-wc-rest-orders-controller.php:931
 #: includes/api/v1/class-wc-rest-orders-controller.php:1165
 msgid "User agent of the customer."
 msgstr "Kliendi veebilehitseja kasutajaagent."
 
-#: includes/api/class-wc-rest-orders-controller.php:930
+#: includes/api/class-wc-rest-orders-controller.php:925
 #: includes/api/v1/class-wc-rest-orders-controller.php:1159
 msgid "Customer's IP address."
 msgstr "Kliendi IP aadress."
 
-#: includes/api/class-wc-rest-orders-controller.php:1072
+#: includes/api/class-wc-rest-orders-controller.php:1067
 #: includes/api/v1/class-wc-rest-orders-controller.php:1154
 msgid "Unique transaction ID."
 msgstr "Unikaalne tehingu ID."
 
-#: includes/api/class-wc-rest-orders-controller.php:1610
+#: includes/api/class-wc-rest-orders-controller.php:1605
 #: includes/api/v1/class-wc-rest-orders-controller.php:1148
 msgid "Define if the order is paid. It will set the status to processing and reduce stock items."
 msgstr "Määra tellimus makstuks. See muudab staatuse töötlusse ning vähendab laoseise."
 
-#: includes/api/class-wc-rest-orders-controller.php:1067
+#: includes/api/class-wc-rest-orders-controller.php:1062
 #: includes/api/v1/class-wc-rest-orders-controller.php:1143
 msgid "Payment method title."
 msgstr "Maksemeetodi nimetus."
 
-#: includes/api/class-wc-rest-orders-controller.php:1062
+#: includes/api/class-wc-rest-orders-controller.php:1057
 #: includes/api/v1/class-wc-rest-orders-controller.php:1138
 msgid "Payment method ID."
 msgstr "Maksemeetodi ID."
 
-#: includes/api/class-wc-rest-orders-controller.php:1010
+#: includes/api/class-wc-rest-orders-controller.php:1005
 #: includes/api/v1/class-wc-rest-orders-controller.php:1086
 msgid "Shipping address."
 msgstr "Tarne aadress."
 
-#: includes/api/class-wc-rest-orders-controller.php:992
-#: includes/api/class-wc-rest-orders-controller.php:1055
+#: includes/api/class-wc-rest-orders-controller.php:987
+#: includes/api/class-wc-rest-orders-controller.php:1050
 #: includes/api/v1/class-wc-rest-orders-controller.php:1068
 #: includes/api/v1/class-wc-rest-orders-controller.php:1131
 msgid "Country code in ISO 3166-1 alpha-2 format."
 msgstr "Riigi kood ISO 3166-1 alpha-2 formaadis."
 
-#: includes/api/class-wc-rest-orders-controller.php:947
+#: includes/api/class-wc-rest-orders-controller.php:942
 #: includes/api/v1/class-wc-rest-orders-controller.php:1023
 msgid "Billing address."
 msgstr "Arve aadress."
 
-#: includes/api/class-wc-rest-orders-controller.php:912
+#: includes/api/class-wc-rest-orders-controller.php:907
 #: includes/api/v1/class-wc-rest-orders-controller.php:1017
 msgid "Sum of all taxes."
 msgstr "Kõikide maksude kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:906
+#: includes/api/class-wc-rest-orders-controller.php:901
 #: includes/api/v1/class-wc-rest-orders-controller.php:1011
 msgid "Grand total."
 msgstr "Kõik kokku."
 
-#: includes/api/class-wc-rest-orders-controller.php:900
+#: includes/api/class-wc-rest-orders-controller.php:895
 #: includes/api/v1/class-wc-rest-orders-controller.php:1005
 msgid "Sum of line item taxes only."
 msgstr "Ainult arveridade maksude summa."
 
-#: includes/api/class-wc-rest-orders-controller.php:894
+#: includes/api/class-wc-rest-orders-controller.php:889
 #: includes/api/v1/class-wc-rest-orders-controller.php:999
 msgid "Total shipping tax amount for the order."
 msgstr "Tellimuse tarne maksude kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:888
+#: includes/api/class-wc-rest-orders-controller.php:883
 #: includes/api/v1/class-wc-rest-orders-controller.php:993
 msgid "Total shipping amount for the order."
 msgstr "Tellimuse tarne kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:882
+#: includes/api/class-wc-rest-orders-controller.php:877
 #: includes/api/v1/class-wc-rest-orders-controller.php:987
 msgid "Total discount tax amount for the order."
 msgstr "Tellimuse allahindluste maksude kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:876
+#: includes/api/class-wc-rest-orders-controller.php:871
 #: includes/api/v1/class-wc-rest-orders-controller.php:981
 msgid "Total discount amount for the order."
 msgstr "Tellimuse allahindluste kogusumma."
 
-#: includes/api/class-wc-rest-orders-controller.php:924
+#: includes/api/class-wc-rest-orders-controller.php:919
 #: includes/api/v1/class-wc-rest-orders-controller.php:975
 msgid "User ID who owns the order. 0 for guests."
 msgstr "Tellimuse omaniku kasutaja ID. Külaliste jaoks 0."
 
-#: includes/api/class-wc-rest-orders-controller.php:864
+#: includes/api/class-wc-rest-orders-controller.php:859
 msgid "The date the order was last modified, in the site's timezone."
 msgstr "Tellimuse viimase muutmise kuupäev, veebilehe ajavööndis."
 
-#: includes/api/class-wc-rest-orders-controller.php:852
+#: includes/api/class-wc-rest-orders-controller.php:847
 msgid "The date the order was created, in the site's timezone."
 msgstr "Tellimuse loomise kuupäev, veebilehe ajavööndis."
 
-#: includes/api/class-wc-rest-orders-controller.php:918
+#: includes/api/class-wc-rest-orders-controller.php:913
 #: includes/api/v1/class-wc-rest-orders-controller.php:957
 msgid "True the prices included tax during checkout."
 msgstr "Tõene, kui ostu sooritamisel kasutatud hinnad sisaldasid makse."
 
-#: includes/api/class-wc-rest-orders-controller.php:845
+#: includes/api/class-wc-rest-orders-controller.php:840
 #: includes/api/v1/class-wc-rest-orders-controller.php:944
 msgid "Currency the order was created with, in ISO format."
 msgstr "ISO formaadis valuuta, millega tellimus loodi."
 
-#: includes/api/class-wc-rest-orders-controller.php:838
+#: includes/api/class-wc-rest-orders-controller.php:833
 #: includes/api/v1/class-wc-rest-orders-controller.php:925
 msgid "Order status."
 msgstr "Tellimuse olek."
 
-#: includes/api/class-wc-rest-orders-controller.php:809
+#: includes/api/class-wc-rest-orders-controller.php:804
 #: includes/api/v1/class-wc-rest-orders-controller.php:920
 msgid "Parent order ID."
 msgstr "Ülemtellimuse ID."
 
-#: includes/api/class-wc-rest-orders-controller.php:737
+#: includes/api/class-wc-rest-orders-controller.php:736
 #: includes/api/legacy/v2/class-wc-api-orders.php:851
 #: includes/api/legacy/v3/class-wc-api-orders.php:897
 #: includes/api/v1/class-wc-rest-orders-controller.php:772
@@ -6738,7 +6746,7 @@ msgstr "Antud tellimuse toote ID ei ole selle tellimusega seotud."
 msgid "Cannot update coupon, try again."
 msgstr "Kupongi uuendamine ebaõnnestus, proovi uuesti."
 
-#: includes/api/class-wc-rest-orders-controller.php:698
+#: includes/api/class-wc-rest-orders-controller.php:699
 #: includes/api/legacy/v2/class-wc-api-orders.php:1166
 #: includes/api/legacy/v3/class-wc-api-orders.php:1213
 #: includes/api/v1/class-wc-rest-orders-controller.php:734
@@ -6755,7 +6763,7 @@ msgstr "Tasu uuendamine ebaõnnestus, proovi uuesti."
 msgid "Fee tax class is required when fee is taxable."
 msgstr "Lisatasu maksuklass on maksustatavate lisatasude puhul nõutav."
 
-#: includes/api/class-wc-rest-orders-controller.php:674
+#: includes/api/class-wc-rest-orders-controller.php:675
 #: includes/api/v1/class-wc-rest-orders-controller.php:711
 msgid "Fee name is required."
 msgstr "Tasu nimetus on nõutud."
@@ -6765,7 +6773,7 @@ msgstr "Tasu nimetus on nõutud."
 msgid "Cannot update shipping method, try again."
 msgstr "Tarnemeetodi uuendamine ebaõnnestus, proovi uuesti."
 
-#: includes/api/class-wc-rest-orders-controller.php:650
+#: includes/api/class-wc-rest-orders-controller.php:651
 #: includes/api/legacy/v2/class-wc-api-orders.php:1043
 #: includes/api/legacy/v3/class-wc-api-orders.php:1090
 #: includes/api/v1/class-wc-rest-orders-controller.php:688
@@ -6812,7 +6820,7 @@ msgstr "Toote ID või tootekood on nõutav."
 msgid "Customer ID is invalid."
 msgstr "Kliendi ID on vigane."
 
-#: includes/api/class-wc-rest-orders-controller.php:1651
+#: includes/api/class-wc-rest-orders-controller.php:1646
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:515
 #: includes/api/v1/class-wc-rest-orders-controller.php:1613
 msgid "Number of decimal points to use in each resource."
@@ -6822,14 +6830,14 @@ msgstr "Igas ressursis kasutatavate komakohtade arv."
 #: includes/api/class-wc-rest-customers-controller.php:356
 #: includes/api/class-wc-rest-order-refunds-controller.php:402
 #: includes/api/class-wc-rest-order-refunds-controller.php:514
-#: includes/api/class-wc-rest-orders-controller.php:1125
-#: includes/api/class-wc-rest-orders-controller.php:1237
-#: includes/api/class-wc-rest-orders-controller.php:1328
-#: includes/api/class-wc-rest-orders-controller.php:1414
-#: includes/api/class-wc-rest-orders-controller.php:1512
-#: includes/api/class-wc-rest-orders-controller.php:1570
+#: includes/api/class-wc-rest-orders-controller.php:1120
+#: includes/api/class-wc-rest-orders-controller.php:1232
+#: includes/api/class-wc-rest-orders-controller.php:1323
+#: includes/api/class-wc-rest-orders-controller.php:1409
+#: includes/api/class-wc-rest-orders-controller.php:1507
+#: includes/api/class-wc-rest-orders-controller.php:1565
 #: includes/api/class-wc-rest-product-variations-controller.php:947
-#: includes/api/class-wc-rest-products-controller.php:1990
+#: includes/api/class-wc-rest-products-controller.php:1993
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:488
 #: includes/api/v1/class-wc-rest-orders-controller.php:1321
 msgid "Meta value."
@@ -6844,14 +6852,14 @@ msgstr "Meta silt."
 #: includes/api/class-wc-rest-customers-controller.php:351
 #: includes/api/class-wc-rest-order-refunds-controller.php:397
 #: includes/api/class-wc-rest-order-refunds-controller.php:509
-#: includes/api/class-wc-rest-orders-controller.php:1120
-#: includes/api/class-wc-rest-orders-controller.php:1232
-#: includes/api/class-wc-rest-orders-controller.php:1323
-#: includes/api/class-wc-rest-orders-controller.php:1409
-#: includes/api/class-wc-rest-orders-controller.php:1507
-#: includes/api/class-wc-rest-orders-controller.php:1565
+#: includes/api/class-wc-rest-orders-controller.php:1115
+#: includes/api/class-wc-rest-orders-controller.php:1227
+#: includes/api/class-wc-rest-orders-controller.php:1318
+#: includes/api/class-wc-rest-orders-controller.php:1404
+#: includes/api/class-wc-rest-orders-controller.php:1502
+#: includes/api/class-wc-rest-orders-controller.php:1560
 #: includes/api/class-wc-rest-product-variations-controller.php:942
-#: includes/api/class-wc-rest-products-controller.php:1985
+#: includes/api/class-wc-rest-products-controller.php:1988
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:476
 #: includes/api/v1/class-wc-rest-orders-controller.php:1309
 msgid "Meta key."
@@ -6863,8 +6871,8 @@ msgid "Line item meta data."
 msgstr "Arverea meta andmed."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:488
-#: includes/api/class-wc-rest-orders-controller.php:1211
-#: includes/api/class-wc-rest-orders-controller.php:1485
+#: includes/api/class-wc-rest-orders-controller.php:1206
+#: includes/api/class-wc-rest-orders-controller.php:1480
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:459
 #: includes/api/v1/class-wc-rest-orders-controller.php:1292
 #: includes/api/v1/class-wc-rest-orders-controller.php:1505
@@ -6872,9 +6880,9 @@ msgid "Tax subtotal."
 msgstr "Maksude vahesumma."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:483
-#: includes/api/class-wc-rest-orders-controller.php:1206
-#: includes/api/class-wc-rest-orders-controller.php:1387
-#: includes/api/class-wc-rest-orders-controller.php:1479
+#: includes/api/class-wc-rest-orders-controller.php:1201
+#: includes/api/class-wc-rest-orders-controller.php:1382
+#: includes/api/class-wc-rest-orders-controller.php:1474
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:453
 #: includes/api/v1/class-wc-rest-orders-controller.php:1286
 #: includes/api/v1/class-wc-rest-orders-controller.php:1434
@@ -6883,9 +6891,9 @@ msgid "Tax total."
 msgstr "Maksude kogusumma."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:470
-#: includes/api/class-wc-rest-orders-controller.php:1193
-#: includes/api/class-wc-rest-orders-controller.php:1373
-#: includes/api/class-wc-rest-orders-controller.php:1465
+#: includes/api/class-wc-rest-orders-controller.php:1188
+#: includes/api/class-wc-rest-orders-controller.php:1368
+#: includes/api/class-wc-rest-orders-controller.php:1460
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:439
 #: includes/api/v1/class-wc-rest-orders-controller.php:1272
 #: includes/api/v1/class-wc-rest-orders-controller.php:1420
@@ -6894,9 +6902,9 @@ msgid "Line taxes."
 msgstr "Arverea maksud."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:464
-#: includes/api/class-wc-rest-orders-controller.php:1187
-#: includes/api/class-wc-rest-orders-controller.php:1367
-#: includes/api/class-wc-rest-orders-controller.php:1459
+#: includes/api/class-wc-rest-orders-controller.php:1182
+#: includes/api/class-wc-rest-orders-controller.php:1362
+#: includes/api/class-wc-rest-orders-controller.php:1454
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:434
 #: includes/api/v1/class-wc-rest-orders-controller.php:1267
 #: includes/api/v1/class-wc-rest-orders-controller.php:1414
@@ -6905,9 +6913,9 @@ msgid "Line total tax (after discounts)."
 msgstr "Arverea maksude summa (peale allahindlusi)."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:459
-#: includes/api/class-wc-rest-orders-controller.php:1182
-#: includes/api/class-wc-rest-orders-controller.php:1362
-#: includes/api/class-wc-rest-orders-controller.php:1454
+#: includes/api/class-wc-rest-orders-controller.php:1177
+#: includes/api/class-wc-rest-orders-controller.php:1357
+#: includes/api/class-wc-rest-orders-controller.php:1449
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:429
 #: includes/api/v1/class-wc-rest-orders-controller.php:1262
 #: includes/api/v1/class-wc-rest-orders-controller.php:1409
@@ -6916,42 +6924,42 @@ msgid "Line total (after discounts)."
 msgstr "Arverea summa (peale allahindlusi)."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:453
-#: includes/api/class-wc-rest-orders-controller.php:1176
+#: includes/api/class-wc-rest-orders-controller.php:1171
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:424
 #: includes/api/v1/class-wc-rest-orders-controller.php:1257
 msgid "Line subtotal tax (before discounts)."
 msgstr "Arverea vahesumma maksud (enne allahindlusi)."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:448
-#: includes/api/class-wc-rest-orders-controller.php:1171
+#: includes/api/class-wc-rest-orders-controller.php:1166
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:419
 #: includes/api/v1/class-wc-rest-orders-controller.php:1252
 msgid "Line subtotal (before discounts)."
 msgstr "Arverea vahesumma (enne allahindlusi)."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:528
-#: includes/api/class-wc-rest-orders-controller.php:1251
+#: includes/api/class-wc-rest-orders-controller.php:1246
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:413
 #: includes/api/v1/class-wc-rest-orders-controller.php:1246
 msgid "Product price."
 msgstr "Toote hind."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:443
-#: includes/api/class-wc-rest-orders-controller.php:1166
+#: includes/api/class-wc-rest-orders-controller.php:1161
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:407
 #: includes/api/v1/class-wc-rest-orders-controller.php:1240
 msgid "Tax class of product."
 msgstr "Toote maksuklass."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:438
-#: includes/api/class-wc-rest-orders-controller.php:1161
+#: includes/api/class-wc-rest-orders-controller.php:1156
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:402
 #: includes/api/v1/class-wc-rest-orders-controller.php:1235
 msgid "Quantity ordered."
 msgstr "Tellitud kogus."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:433
-#: includes/api/class-wc-rest-orders-controller.php:1156
+#: includes/api/class-wc-rest-orders-controller.php:1151
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:397
 #: includes/api/v1/class-wc-rest-orders-controller.php:1230
 msgid "Variation ID, if applicable."
@@ -6959,7 +6967,7 @@ msgstr "Variatsiooni ID, kui on."
 
 #: includes/api/class-wc-rest-customer-downloads-controller.php:103
 #: includes/api/class-wc-rest-order-refunds-controller.php:423
-#: includes/api/class-wc-rest-orders-controller.php:1146
+#: includes/api/class-wc-rest-orders-controller.php:1141
 #: includes/api/class-wc-rest-products-controller.php:1404
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:380
 #: includes/api/v1/class-wc-rest-orders-controller.php:1213
@@ -6969,11 +6977,11 @@ msgid "Product name."
 msgstr "Toote nimi."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:417
-#: includes/api/class-wc-rest-orders-controller.php:1140
-#: includes/api/class-wc-rest-orders-controller.php:1268
-#: includes/api/class-wc-rest-orders-controller.php:1346
-#: includes/api/class-wc-rest-orders-controller.php:1432
-#: includes/api/class-wc-rest-orders-controller.php:1530
+#: includes/api/class-wc-rest-orders-controller.php:1135
+#: includes/api/class-wc-rest-orders-controller.php:1263
+#: includes/api/class-wc-rest-orders-controller.php:1341
+#: includes/api/class-wc-rest-orders-controller.php:1427
+#: includes/api/class-wc-rest-orders-controller.php:1525
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:374
 #: includes/api/v1/class-wc-rest-orders-controller.php:1207
 #: includes/api/v1/class-wc-rest-orders-controller.php:1341
@@ -6984,7 +6992,7 @@ msgid "Item ID."
 msgstr "Toote ID."
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:410
-#: includes/api/class-wc-rest-orders-controller.php:1133
+#: includes/api/class-wc-rest-orders-controller.php:1128
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:367
 #: includes/api/v1/class-wc-rest-orders-controller.php:1200
 msgid "Line items data."
@@ -7075,7 +7083,7 @@ msgstr "Veebikonkse ei saa prügikasti saata."
 msgid "Cannot create order note, please try again."
 msgstr "Tellimuse märkme loomine ebaõnnestus, palun proovi uuesti."
 
-#: includes/data-stores/abstract-wc-order-item-type-data-store.php:120
+#: includes/data-stores/abstract-wc-order-item-type-data-store.php:121
 msgid "Invalid order item."
 msgstr "Vigane arverida."
 
@@ -7093,14 +7101,14 @@ msgid "List of shipping address data."
 msgstr "Tarneaadressi andmete loetelu."
 
 #: includes/api/class-wc-rest-customers-controller.php:255
-#: includes/api/class-wc-rest-orders-controller.php:1003
+#: includes/api/class-wc-rest-orders-controller.php:998
 #: includes/api/v1/class-wc-rest-customers-controller.php:779
 #: includes/api/v1/class-wc-rest-orders-controller.php:1079
 msgid "Phone number."
 msgstr "Telefoninumber."
 
 #: includes/api/class-wc-rest-customers-controller.php:249
-#: includes/api/class-wc-rest-orders-controller.php:997
+#: includes/api/class-wc-rest-orders-controller.php:992
 #: includes/api/v1/class-wc-rest-customers-controller.php:773
 #: includes/api/v1/class-wc-rest-orders-controller.php:1073
 msgid "Email address."
@@ -7115,8 +7123,8 @@ msgstr "Riigi ISO kood."
 
 #: includes/api/class-wc-rest-customers-controller.php:239
 #: includes/api/class-wc-rest-customers-controller.php:302
-#: includes/api/class-wc-rest-orders-controller.php:987
-#: includes/api/class-wc-rest-orders-controller.php:1050
+#: includes/api/class-wc-rest-orders-controller.php:982
+#: includes/api/class-wc-rest-orders-controller.php:1045
 #: includes/api/v1/class-wc-rest-customers-controller.php:763
 #: includes/api/v1/class-wc-rest-customers-controller.php:826
 #: includes/api/v1/class-wc-rest-orders-controller.php:1063
@@ -7126,8 +7134,8 @@ msgstr "Sihtnumber."
 
 #: includes/api/class-wc-rest-customers-controller.php:234
 #: includes/api/class-wc-rest-customers-controller.php:297
-#: includes/api/class-wc-rest-orders-controller.php:982
-#: includes/api/class-wc-rest-orders-controller.php:1045
+#: includes/api/class-wc-rest-orders-controller.php:977
+#: includes/api/class-wc-rest-orders-controller.php:1040
 #: includes/api/v1/class-wc-rest-customers-controller.php:758
 #: includes/api/v1/class-wc-rest-customers-controller.php:821
 #: includes/api/v1/class-wc-rest-orders-controller.php:1058
@@ -7137,8 +7145,8 @@ msgstr "Osariigi, maakonna või piirkonna ISO kood või nimi."
 
 #: includes/api/class-wc-rest-customers-controller.php:229
 #: includes/api/class-wc-rest-customers-controller.php:292
-#: includes/api/class-wc-rest-orders-controller.php:977
-#: includes/api/class-wc-rest-orders-controller.php:1040
+#: includes/api/class-wc-rest-orders-controller.php:972
+#: includes/api/class-wc-rest-orders-controller.php:1035
 #: includes/api/v1/class-wc-rest-customers-controller.php:753
 #: includes/api/v1/class-wc-rest-customers-controller.php:816
 #: includes/api/v1/class-wc-rest-orders-controller.php:1053
@@ -7163,8 +7171,8 @@ msgstr "Aadressirida 1."
 
 #: includes/api/class-wc-rest-customers-controller.php:214
 #: includes/api/class-wc-rest-customers-controller.php:277
-#: includes/api/class-wc-rest-orders-controller.php:962
-#: includes/api/class-wc-rest-orders-controller.php:1025
+#: includes/api/class-wc-rest-orders-controller.php:957
+#: includes/api/class-wc-rest-orders-controller.php:1020
 #: includes/api/v1/class-wc-rest-customers-controller.php:738
 #: includes/api/v1/class-wc-rest-customers-controller.php:801
 #: includes/api/v1/class-wc-rest-orders-controller.php:1038
@@ -7174,8 +7182,8 @@ msgstr "Firma nimi."
 
 #: includes/api/class-wc-rest-customers-controller.php:209
 #: includes/api/class-wc-rest-customers-controller.php:272
-#: includes/api/class-wc-rest-orders-controller.php:957
-#: includes/api/class-wc-rest-orders-controller.php:1020
+#: includes/api/class-wc-rest-orders-controller.php:952
+#: includes/api/class-wc-rest-orders-controller.php:1015
 #: includes/api/v1/class-wc-rest-customers-controller.php:733
 #: includes/api/v1/class-wc-rest-customers-controller.php:796
 #: includes/api/v1/class-wc-rest-orders-controller.php:1033
@@ -7185,8 +7193,8 @@ msgstr "Perekonnanimi."
 
 #: includes/api/class-wc-rest-customers-controller.php:204
 #: includes/api/class-wc-rest-customers-controller.php:267
-#: includes/api/class-wc-rest-orders-controller.php:952
-#: includes/api/class-wc-rest-orders-controller.php:1015
+#: includes/api/class-wc-rest-orders-controller.php:947
+#: includes/api/class-wc-rest-orders-controller.php:1010
 #: includes/api/v1/class-wc-rest-customers-controller.php:728
 #: includes/api/v1/class-wc-rest-customers-controller.php:791
 #: includes/api/v1/class-wc-rest-orders-controller.php:1028
@@ -7262,7 +7270,7 @@ msgstr "Kliendi kirje loomise kuupäev, veebilehe ajavööndis."
 #: includes/api/class-wc-rest-order-refunds-controller.php:92
 #: includes/api/class-wc-rest-order-refunds-controller.php:351
 #: includes/api/class-wc-rest-orders-controller.php:82
-#: includes/api/class-wc-rest-orders-controller.php:803
+#: includes/api/class-wc-rest-orders-controller.php:798
 #: includes/api/class-wc-rest-payment-gateways-controller.php:53
 #: includes/api/class-wc-rest-product-categories-controller.php:107
 #: includes/api/class-wc-rest-product-reviews-controller.php:155
@@ -7367,7 +7375,7 @@ msgid "Number of downloads remaining."
 msgstr "Järelejäänud allalaadimiskordade arv."
 
 #: includes/api/class-wc-rest-customer-downloads-controller.php:121
-#: includes/api/class-wc-rest-orders-controller.php:820
+#: includes/api/class-wc-rest-orders-controller.php:815
 #: includes/api/v1/class-wc-rest-customer-downloads-controller.php:199
 #: includes/api/v1/class-wc-rest-orders-controller.php:932
 msgid "Order key."
@@ -7480,7 +7488,7 @@ msgstr "Kupongi loomise kuupäev, veebilehe ajavööndis."
 
 #: includes/api/class-wc-rest-coupons-controller.php:63
 #: includes/api/class-wc-rest-coupons-controller.php:337
-#: includes/api/class-wc-rest-orders-controller.php:1536
+#: includes/api/class-wc-rest-orders-controller.php:1531
 #: includes/api/v1/class-wc-rest-coupons-controller.php:70
 #: includes/api/v1/class-wc-rest-coupons-controller.php:421
 #: includes/api/v1/class-wc-rest-orders-controller.php:1530
@@ -7990,30 +7998,30 @@ msgstr "Laojäägi kogus"
 msgid "Tax status"
 msgstr "Maksustamine"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1097
+#: includes/admin/class-wc-admin-setup-wizard.php:1095
 msgid "A simple offline gateway that lets you accept cash on delivery."
 msgstr "Lihtne meetod kättesaamisel sularahas maksmise võimaldamiseks."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1091
+#: includes/admin/class-wc-admin-setup-wizard.php:1089
 msgid "A simple offline gateway that lets you accept BACS payment."
 msgstr "Lihtne meetod pangaülekandega maksmise võimaldamiseks."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1085
+#: includes/admin/class-wc-admin-setup-wizard.php:1083
 msgid "A simple offline gateway that lets you accept a check as method of payment."
 msgstr "Lihtne maksemeetod, mis laseb tšekiga maksta."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1084
+#: includes/admin/class-wc-admin-setup-wizard.php:1082
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:27
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:63
 msgctxt "Check payment method"
 msgid "Check payments"
 msgstr "Maksed tšekiga"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1044
+#: includes/admin/class-wc-admin-setup-wizard.php:1042
 msgid "Accept payments via PayPal using account balance or credit card."
 msgstr "Aktsepteeri makseid PayPal-i kaudu, mis kasutavad kontojääki või krediitkaarti."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1037
+#: includes/admin/class-wc-admin-setup-wizard.php:1035
 msgid "PayPal Express Checkout"
 msgstr "PayPal Express Checkout"
 
@@ -8050,15 +8058,15 @@ msgstr "WooCommerce tuumaga põhjalikuma abi saamiseks saad kasutada <a href=\"%
 msgid "Help &amp; Support"
 msgstr "Abi &amp; tugi"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1005
+#: includes/admin/class-wc-admin-setup-wizard.php:1003
 msgid "Stripe"
 msgstr "Stripe"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1031
+#: includes/admin/class-wc-admin-setup-wizard.php:1029
 msgid "PayPal by Braintree"
 msgstr "PayPal by Braintree"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1090
+#: includes/admin/class-wc-admin-setup-wizard.php:1088
 msgid "Bank transfer (BACS) payments"
 msgstr "Pangaülekandega maksmine (BACS)"
 
@@ -8470,7 +8478,7 @@ msgstr "Aafrika"
 msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
 msgstr "Lõikepuhvrisse kopeerimine ebaõnnestus. Palun kasuta kopeerimiseks Ctrl/Cmd+C."
 
-#: includes/wc-core-functions.php:416
+#: includes/wc-core-functions.php:417
 msgid "Saudi riyal"
 msgstr "Saudi riaal"
 
@@ -8508,11 +8516,11 @@ msgstr "Kahjuks ei saa tellimust vastu võtta, sest tehing lükati panga/kaupmeh
 msgid "Hide empty categories"
 msgstr "Varja tühjad kategooriad"
 
-#: includes/wc-core-functions.php:407
+#: includes/wc-core-functions.php:408
 msgid "Pakistani rupee"
 msgstr "Pakistani rupee"
 
-#: includes/wc-core-functions.php:367
+#: includes/wc-core-functions.php:368
 msgid "Kenyan shilling"
 msgstr "Keenia šilling"
 
@@ -8878,14 +8886,6 @@ msgstr "%s keskmiselt kuus brutomüüki"
 msgid "%s average gross daily sales"
 msgstr "%s keskmiselt päevas brutomüüki"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:130
-msgid "This field allows you to set the maximum spend (subtotal, including taxes) allowed when using the coupon."
-msgstr "Selle väljaga saab määrata maksimumsumma (kaupade kogusumma koos maksudega), millega koos kupongi kasutada saab."
-
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:120
-msgid "This field allows you to set the minimum spend (subtotal, including taxes) allowed to use the coupon."
-msgstr "Selle väljaga saab määrata miinimumsumma (kaupade kogusumma koos maksudega), millega koos kupongi kasutada saab."
-
 #: includes/admin/class-wc-admin-permalink-settings.php:102
 msgid "These settings control the permalinks used specifically for products."
 msgstr "Need sätted kontrollivad toodete jaoks kasutatavaid püsiviiteid."
@@ -9193,7 +9193,7 @@ msgstr "l j. F Y H:i:s"
 msgid "Order updates"
 msgstr "Tellimuse täiendused"
 
-#: includes/api/class-wc-rest-orders-controller.php:814
+#: includes/api/class-wc-rest-orders-controller.php:809
 #: includes/api/v1/class-wc-rest-orders-controller.php:938
 msgid "Order number."
 msgstr "Tellimuse number."
@@ -9261,7 +9261,7 @@ msgid "Password change"
 msgstr "Parooli muutmine"
 
 #: includes/admin/class-wc-admin-profile.php:88
-#: includes/admin/class-wc-admin-setup-wizard.php:1620
+#: includes/admin/class-wc-admin-setup-wizard.php:1618
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:83
 #: includes/class-wc-countries.php:1158 includes/class-wc-form-handler.php:214
 #: templates/myaccount/form-edit-account.php:40
@@ -9443,7 +9443,7 @@ msgid "Sorry, it seems that there are no available payment methods for your loca
 msgstr "Vabandame - tundub, et sinu asukoha jaoks ei ole sobivaid makseviise. Kui sa vajad abi või soovid teha erikokkulepet, võta palun meiega ühendust."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:99
-#: includes/admin/class-wc-admin-setup-wizard.php:1211
+#: includes/admin/class-wc-admin-setup-wizard.php:1209
 msgid "Payment"
 msgstr "Makse"
 
@@ -9499,7 +9499,7 @@ msgstr "Arvuta transpordikulud"
 msgid "Proceed to checkout"
 msgstr "Mine maksma"
 
-#: includes/wc-template-functions.php:1515
+#: includes/wc-template-functions.php:1516
 msgid "Checkout"
 msgstr "Maksma"
 
@@ -9544,7 +9544,7 @@ msgstr "Ostukorvi summad"
 msgid "Shipping %s"
 msgstr "Tarne %s"
 
-#: includes/wc-template-functions.php:2716
+#: includes/wc-template-functions.php:2717
 msgid "Your cart is currently empty."
 msgstr "Sinu ostukorv on hetkel tühi."
 
@@ -9786,61 +9786,61 @@ msgstr "Sinu e-posti aadressiga on juba konto registreeritud. Palun logi sisse."
 msgid "Select a category"
 msgstr "Vali kategooria"
 
-#: includes/wc-template-functions.php:2116
-#: includes/wc-template-functions.php:2268
-#: includes/wc-template-functions.php:2278
+#: includes/wc-template-functions.php:2117
+#: includes/wc-template-functions.php:2269
+#: includes/wc-template-functions.php:2279
 msgid "Choose an option"
 msgstr "Vali"
 
-#: includes/wc-template-functions.php:2071
+#: includes/wc-template-functions.php:2072
 #: templates/cart/shipping-calculator.php:64
 msgid "Select a state&hellip;"
 msgstr "Vali maakond&hellip;"
 
-#: includes/wc-template-functions.php:2052
+#: includes/wc-template-functions.php:2053
 msgid "Update country"
 msgstr "Uuenda riiki"
 
-#: includes/wc-template-functions.php:1644
+#: includes/wc-template-functions.php:1645
 msgid "Place order"
 msgstr "Esita tellimus"
 
-#: includes/wc-template-functions.php:1590
+#: includes/wc-template-functions.php:1591
 msgctxt "breadcrumb"
 msgid "Home"
 msgstr "Esileht"
 
-#: includes/wc-template-functions.php:1204
+#: includes/wc-template-functions.php:1205
 msgid "Reviews (%d)"
 msgstr "Arvustused (%d)"
 
-#: includes/wc-template-functions.php:1195
+#: includes/wc-template-functions.php:1196
 #: templates/checkout/form-shipping.php:63
 #: templates/single-product/tabs/additional-information.php:25
 msgid "Additional information"
 msgstr "Lisainfo"
 
-#: includes/wc-template-functions.php:845
+#: includes/wc-template-functions.php:846
 msgid "Sort by price: high to low"
 msgstr "Järjesta hinna alusel: kallimast odavamani"
 
-#: includes/wc-template-functions.php:844
+#: includes/wc-template-functions.php:845
 msgid "Sort by price: low to high"
 msgstr "Järjesta hinna alusel: odavamast kallimani"
 
-#: includes/wc-template-functions.php:843
+#: includes/wc-template-functions.php:844
 msgid "Sort by newness"
 msgstr "Järjesta uudsuse alusel"
 
-#: includes/wc-template-functions.php:842
+#: includes/wc-template-functions.php:843
 msgid "Sort by average rating"
 msgstr "Järjesta keskmise hinnangu järgi"
 
-#: includes/wc-template-functions.php:841
+#: includes/wc-template-functions.php:842
 msgid "Sort by popularity"
 msgstr "Järjesta populaarsuse alusel"
 
-#: includes/wc-template-functions.php:840
+#: includes/wc-template-functions.php:841
 msgid "Default sorting"
 msgstr "Vaikimisi järjestus"
 
@@ -9896,131 +9896,131 @@ msgstr "Maksmata tellimus tühistati - aja piirmäär ületati."
 msgid "This function should not be called before woocommerce_init."
 msgstr "Seda funktsiooni ei tohiks kasutada enne kui tegevus woocommerce_init on toimunud."
 
-#: includes/wc-core-functions.php:335
+#: includes/wc-core-functions.php:336
 msgid "Egyptian pound"
 msgstr "Egiptuse nael"
 
-#: includes/wc-core-functions.php:439
+#: includes/wc-core-functions.php:440
 msgid "Ukrainian hryvnia"
 msgstr "Ukraina grivna"
 
-#: includes/wc-core-functions.php:435
+#: includes/wc-core-functions.php:436
 msgid "Turkish lira"
 msgstr "Türgi liir"
 
-#: includes/wc-core-functions.php:430
+#: includes/wc-core-functions.php:431
 msgid "Thai baht"
 msgstr "Tai baht"
 
-#: includes/wc-core-functions.php:322
+#: includes/wc-core-functions.php:323
 msgid "Swiss franc"
 msgstr "Šveitsi frank"
 
-#: includes/wc-core-functions.php:420
+#: includes/wc-core-functions.php:421
 msgid "Swedish krona"
 msgstr "Rootsi kroon"
 
-#: includes/wc-core-functions.php:453
+#: includes/wc-core-functions.php:454
 msgid "South African rand"
 msgstr "Lõuna-Aafrika rand"
 
-#: includes/wc-core-functions.php:421
+#: includes/wc-core-functions.php:422
 msgid "Singapore dollar"
 msgstr "Singapuri dollar"
 
-#: includes/wc-core-functions.php:414
+#: includes/wc-core-functions.php:415
 msgid "Russian ruble"
 msgstr "Vene rubla"
 
-#: includes/wc-core-functions.php:412
+#: includes/wc-core-functions.php:413
 msgid "Romanian leu"
 msgstr "Rumeenia leu"
 
-#: includes/wc-core-functions.php:341
+#: includes/wc-core-functions.php:342
 msgid "Pound sterling"
 msgstr "Naelsterling"
 
-#: includes/wc-core-functions.php:406
+#: includes/wc-core-functions.php:407
 msgid "Philippine peso"
 msgstr "Filipiini peeso"
 
-#: includes/wc-core-functions.php:401
+#: includes/wc-core-functions.php:402
 msgid "New Zealand dollar"
 msgstr "Uus-Meremaa dollar"
 
-#: includes/wc-core-functions.php:399
+#: includes/wc-core-functions.php:400
 msgid "Norwegian krone"
 msgstr "Norra kroon"
 
-#: includes/wc-core-functions.php:397
+#: includes/wc-core-functions.php:398
 msgid "Nigerian naira"
 msgstr "Nigeeria naira"
 
-#: includes/wc-core-functions.php:393
+#: includes/wc-core-functions.php:394
 msgid "Mexican peso"
 msgstr "Mehhiko peeso"
 
-#: includes/wc-core-functions.php:394
+#: includes/wc-core-functions.php:395
 msgid "Malaysian ringgit"
 msgstr "Malaisia ​​ringgit"
 
-#: includes/wc-core-functions.php:372
+#: includes/wc-core-functions.php:373
 msgid "South Korean won"
 msgstr "Lõuna-Korea vonn"
 
-#: includes/wc-core-functions.php:376
+#: includes/wc-core-functions.php:377
 msgid "Lao kip"
 msgstr "Lao kip"
 
-#: includes/wc-core-functions.php:366
+#: includes/wc-core-functions.php:367
 msgid "Japanese yen"
 msgstr "Jaapani jeen"
 
-#: includes/wc-core-functions.php:358
+#: includes/wc-core-functions.php:359
 msgid "Indian rupee"
 msgstr "India ruupia"
 
-#: includes/wc-core-functions.php:355
+#: includes/wc-core-functions.php:356
 msgid "Indonesian rupiah"
 msgstr "Indoneesia ruupia"
 
-#: includes/wc-core-functions.php:354
+#: includes/wc-core-functions.php:355
 msgid "Hungarian forint"
 msgstr "Ungari forint"
 
-#: includes/wc-core-functions.php:352
+#: includes/wc-core-functions.php:353
 msgid "Croatian kuna"
 msgstr "Horvaatia kuna"
 
-#: includes/wc-core-functions.php:350
+#: includes/wc-core-functions.php:351
 msgid "Hong Kong dollar"
 msgstr "Hongkongi dollar"
 
-#: includes/wc-core-functions.php:333
+#: includes/wc-core-functions.php:334
 msgid "Dominican peso"
 msgstr "Dominikaani peeso"
 
-#: includes/wc-core-functions.php:332
+#: includes/wc-core-functions.php:333
 msgid "Danish krone"
 msgstr "Taani kroon"
 
-#: includes/wc-core-functions.php:330
+#: includes/wc-core-functions.php:331
 msgid "Czech koruna"
 msgstr "Tšehhi kroon"
 
-#: includes/wc-core-functions.php:325
+#: includes/wc-core-functions.php:326
 msgid "Colombian peso"
 msgstr "Kolumbia peeso"
 
-#: includes/wc-core-functions.php:324
+#: includes/wc-core-functions.php:325
 msgid "Chinese yuan"
 msgstr "Hiina jüaan"
 
-#: includes/wc-core-functions.php:323
+#: includes/wc-core-functions.php:324
 msgid "Chilean peso"
 msgstr "Tšiili peeso"
 
-#: includes/wc-core-functions.php:320
+#: includes/wc-core-functions.php:321
 msgid "Canadian dollar"
 msgstr "Kanada dollar"
 
@@ -11706,7 +11706,7 @@ msgid "Sorry, no products matched your selection. Please choose a different comb
 msgstr "Vabandame, sinu valikule ei vasta ükski toode. Palun proovi teistsugust kombinatsiooni."
 
 #: includes/class-wc-frontend-scripts.php:516
-#: includes/wc-template-functions.php:1985
+#: includes/wc-template-functions.php:1986
 msgid "required"
 msgstr "nõutav"
 
@@ -11718,19 +11718,19 @@ msgstr "Viga kassa andmete töötlemisel. Palun proovige uuesti."
 msgid "Please select a rating"
 msgstr "Palun vali hinnang"
 
-#: includes/class-wc-form-handler.php:1039
+#: includes/class-wc-form-handler.php:1043
 msgid "Passwords do not match."
 msgstr "Paroolid ei klapi."
 
-#: includes/class-wc-form-handler.php:1035
+#: includes/class-wc-form-handler.php:1039
 msgid "Please enter your password."
 msgstr "Palun sisesta oma parool."
 
-#: includes/class-wc-form-handler.php:957
+#: includes/class-wc-form-handler.php:961
 msgid "A user could not be found with this email address."
 msgstr "Sellise e-posti aadressiga kasutajat ei leitud."
 
-#: includes/class-wc-form-handler.php:944
+#: includes/class-wc-form-handler.php:948
 msgid "Username is required."
 msgstr "Kasutajanimi on nõutud."
 
@@ -11743,7 +11743,7 @@ msgstr "Viga"
 msgid "Please choose product options&hellip;"
 msgstr "Palun vali toote valikutest&hellip;"
 
-#: includes/class-wc-form-handler.php:903
+#: includes/class-wc-form-handler.php:907
 msgid "%s is a required field"
 msgid_plural "%s are required fields"
 msgstr[0] "%s on nõutud väli"
@@ -11901,17 +11901,17 @@ msgstr "Palun sisesta kupongi kood."
 msgid "Coupon does not exist!"
 msgstr "Kupongi ei ole olemas!"
 
-#: includes/class-wc-coupon.php:971 includes/class-wc-discounts.php:728
+#: includes/class-wc-coupon.php:971 includes/class-wc-discounts.php:726
 msgid "Sorry, this coupon is not valid for sale items."
 msgstr "Vabandame, see kupong ei kehti allahindlusega toodetele."
 
 #. translators: %s: categories list
-#: includes/class-wc-coupon.php:968 includes/class-wc-discounts.php:841
+#: includes/class-wc-coupon.php:968 includes/class-wc-discounts.php:839
 msgid "Sorry, this coupon is not applicable to the categories: %s."
 msgstr "Vabandame, see kupong ei kehti sinu korvis olevatele tootekategooriatele: %s."
 
 #. translators: %s: products list
-#: includes/class-wc-coupon.php:948 includes/class-wc-discounts.php:800
+#: includes/class-wc-coupon.php:948 includes/class-wc-discounts.php:798
 msgid "Sorry, this coupon is not applicable to the products: %s."
 msgstr "Vabandame, see kupong ei kehti sinu korvis olevatele toodetele: %s."
 
@@ -11920,12 +11920,12 @@ msgid "Sorry, this coupon is not applicable to your cart contents."
 msgstr "Vabandame, see kupong ei kehti sinu korvis olevatele toodetele."
 
 #. translators: %s: coupon maximum amount
-#: includes/class-wc-coupon.php:931 includes/class-wc-discounts.php:637
+#: includes/class-wc-coupon.php:931 includes/class-wc-discounts.php:635
 msgid "The maximum spend for this coupon is %s."
 msgstr "Selle kupongiga saab maksimaalselt osta %s väärtuses."
 
 #. translators: %s: coupon minimum amount
-#: includes/class-wc-coupon.php:927 includes/class-wc-discounts.php:618
+#: includes/class-wc-coupon.php:927 includes/class-wc-discounts.php:617
 msgid "The minimum spend for this coupon is %s."
 msgstr "Minimaalne ostusumma selle kupongi kasutamiseks on %s."
 
@@ -11963,7 +11963,7 @@ msgstr "Vabandame, aga kupong \"%s\" ei kehti - see on nüüd sinu tellimuselt e
 msgid "Coupon \"%s\" does not exist!"
 msgstr "Kupongi \"%s\" pole olemas!"
 
-#: includes/class-wc-coupon.php:898 includes/class-wc-discounts.php:888
+#: includes/class-wc-coupon.php:898 includes/class-wc-discounts.php:901
 msgid "Coupon is not valid."
 msgstr "Kupong ei kehti."
 
@@ -13855,10 +13855,10 @@ msgid "Insert row"
 msgstr "Lisa rida"
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:478
-#: includes/api/class-wc-rest-orders-controller.php:1201
-#: includes/api/class-wc-rest-orders-controller.php:1280
-#: includes/api/class-wc-rest-orders-controller.php:1381
-#: includes/api/class-wc-rest-orders-controller.php:1473
+#: includes/api/class-wc-rest-orders-controller.php:1196
+#: includes/api/class-wc-rest-orders-controller.php:1275
+#: includes/api/class-wc-rest-orders-controller.php:1376
+#: includes/api/class-wc-rest-orders-controller.php:1468
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:447
 #: includes/api/v1/class-wc-rest-orders-controller.php:1280
 #: includes/api/v1/class-wc-rest-orders-controller.php:1353
@@ -14408,7 +14408,7 @@ msgstr "Sihtpunkt \"Kassa &rarr; Lisa makseviis\" lehe jaoks."
 #: includes/admin/settings/class-wc-settings-checkout.php:197
 #: includes/class-wc-query.php:123
 #: templates/myaccount/form-add-payment-method.php:53
-#: templates/myaccount/payment-methods.php:79
+#: templates/myaccount/payment-methods.php:80
 msgid "Add payment method"
 msgstr "Lisa makseviis"
 
@@ -14600,51 +14600,51 @@ msgstr "Konto lehed"
 msgid "Accounts"
 msgstr "Kontod"
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:219
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:218
 #: templates/checkout/form-pay.php:31
 msgid "Totals"
 msgstr "Kokku"
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:189
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:188
 msgid "Total sales minus shipping and tax."
 msgstr "Müük kokku miinus transprdikulud ja maksud."
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:189
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:188
 msgid "Net profit"
 msgstr "Puhaskasum"
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:187
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:186
 msgid "This is the sum of the 'Shipping total' field within your orders."
 msgstr "See on tellimuste kogusumma 'tarne kokku' väljadelt."
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:187
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:186
 msgid "Total shipping"
 msgstr "Transport kokku"
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:186
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:185
 msgid "This is the sum of the 'Order total' field within your orders."
 msgstr "See on tellimuste kogusumma 'tellimus kokku' väljadelt."
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:186
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:185
 msgid "Total sales"
 msgstr "Müük kokku"
 
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:184
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:183
 msgid "Period"
 msgstr "Ajavahemik"
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:185
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:230
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:229
 msgid "No taxes found in this period"
 msgstr "Selle ajavahemiku kohta ei leitud makse"
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:153
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:188
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:187
 msgid "This is the total tax for the rate (shipping tax + product tax)."
 msgstr "See on kogu maksusumma selle maksumäära kohta (transpordi ja toodete pealt)."
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:153
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:188
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:187
 msgid "Total tax"
 msgstr "Maksud kokku"
 
@@ -14746,7 +14746,7 @@ msgstr "Keskmine netomüügi summa"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:676
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:150
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:185
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:184
 msgid "Number of orders"
 msgstr "Tellimuste arv"
 
@@ -15056,8 +15056,8 @@ msgstr "Variatsiooni kirjeldus."
 msgid "Tax class."
 msgstr "Maksuklass."
 
-#: includes/admin/meta-boxes/views/html-variation-admin.php:270
-#: includes/admin/meta-boxes/views/html-variation-admin.php:284
+#: includes/admin/meta-boxes/views/html-variation-admin.php:274
+#: includes/admin/meta-boxes/views/html-variation-admin.php:288
 msgid "Same as parent"
 msgstr "Sama, mis ülemisel"
 
@@ -15068,7 +15068,7 @@ msgid "Shipping classes"
 msgstr "Tarneklassid"
 
 #. translators: %s: dimension unit
-#: includes/admin/meta-boxes/views/html-variation-admin.php:239
+#: includes/admin/meta-boxes/views/html-variation-admin.php:243
 msgid "Dimensions (L&times;W&times;H) (%s)"
 msgstr "Mõõdud (P&times;L&times;K) (%s)"
 
@@ -15206,7 +15206,7 @@ msgstr "Maksumäära kood"
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:559
 #: includes/admin/meta-boxes/views/html-order-items.php:320
 #: includes/admin/meta-boxes/views/html-product-data-general.php:148
-#: includes/admin/meta-boxes/views/html-variation-admin.php:283
+#: includes/admin/meta-boxes/views/html-variation-admin.php:287
 #: includes/admin/settings/class-wc-settings-tax.php:190
 #: includes/admin/views/html-bulk-edit-product.php:89
 #: includes/admin/views/html-quick-edit-product.php:68
@@ -15300,7 +15300,6 @@ msgstr "Maksud"
 msgid "Qty"
 msgstr "Kogus"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:629
 #: includes/admin/meta-boxes/views/html-order-items.php:31
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:31
 #: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:58
@@ -15323,7 +15322,7 @@ msgid "Add&nbsp;meta"
 msgstr "Lisa&nbsp;metaandmed"
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:522
-#: includes/api/class-wc-rest-orders-controller.php:1245
+#: includes/api/class-wc-rest-orders-controller.php:1240
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:386
 #: includes/api/v1/class-wc-rest-orders-controller.php:1219
 msgid "Product SKU."
@@ -15334,7 +15333,7 @@ msgid "Variation ID:"
 msgstr "Variatsiooni ID:"
 
 #: includes/api/class-wc-rest-order-refunds-controller.php:428
-#: includes/api/class-wc-rest-orders-controller.php:1151
+#: includes/api/class-wc-rest-orders-controller.php:1146
 #: includes/api/v1/class-wc-rest-order-refunds-controller.php:392
 #: includes/api/v1/class-wc-rest-orders-controller.php:1225
 #: includes/api/v1/class-wc-rest-report-top-sellers-controller.php:158
@@ -15449,7 +15448,7 @@ msgstr "Mine"
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:115
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:77
-#: includes/admin/meta-boxes/views/html-variation-admin.php:377
+#: includes/admin/meta-boxes/views/html-variation-admin.php:381
 msgid "Download expiry"
 msgstr "Allalaadimise aegumine"
 
@@ -15457,7 +15456,7 @@ msgstr "Allalaadimise aegumine"
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:597
 #: includes/admin/meta-boxes/views/html-product-data-general.php:102
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:76
-#: includes/admin/meta-boxes/views/html-variation-admin.php:361
+#: includes/admin/meta-boxes/views/html-variation-admin.php:365
 #: includes/export/class-wc-product-csv-exporter.php:109
 msgid "Download limit"
 msgstr "Allalaadimiste limiit"
@@ -15620,7 +15619,7 @@ msgstr "Mõningad tarneviisid kasutavad tarneklasse sarnaste toodete rühmitamis
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:444
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:579
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:50
-#: includes/admin/meta-boxes/views/html-variation-admin.php:266
+#: includes/admin/meta-boxes/views/html-variation-admin.php:270
 #: includes/admin/settings/class-wc-settings-shipping.php:343
 #: includes/admin/views/html-bulk-edit-product.php:166
 #: includes/admin/views/html-quick-edit-product.php:124
@@ -15641,21 +15640,21 @@ msgstr "PxLxK kümnendkujul"
 
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:28
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:72
-#: includes/admin/meta-boxes/views/html-variation-admin.php:247
+#: includes/admin/meta-boxes/views/html-variation-admin.php:251
 #: includes/admin/views/html-quick-edit-product.php:114
 msgid "Height"
 msgstr "Kõrgus"
 
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:27
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:71
-#: includes/admin/meta-boxes/views/html-variation-admin.php:246
+#: includes/admin/meta-boxes/views/html-variation-admin.php:250
 #: includes/admin/views/html-quick-edit-product.php:113
 msgid "Width"
 msgstr "Laius"
 
 #: includes/admin/meta-boxes/views/html-product-data-shipping.php:26
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:70
-#: includes/admin/meta-boxes/views/html-variation-admin.php:245
+#: includes/admin/meta-boxes/views/html-variation-admin.php:249
 #: includes/admin/views/html-quick-edit-product.php:112
 msgid "Length"
 msgstr "Pikkus"
@@ -15739,7 +15738,7 @@ msgid "Manage stock?"
 msgstr "Halda laoseisu?"
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:151
-#: includes/admin/meta-boxes/views/html-variation-admin.php:286
+#: includes/admin/meta-boxes/views/html-variation-admin.php:290
 msgid "Choose a tax class for this product. Tax classes are used to apply different tax rates specific to certain types of product."
 msgstr "Vali sellele tootele maksuklass. Maksuklasse kasutatakse kindlat tüüpi toodetele teiste maksumäärade rakendamiseks."
 
@@ -15781,13 +15780,13 @@ msgid "Taxable"
 msgstr "Maksustatav"
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:117
-#: includes/admin/meta-boxes/views/html-variation-admin.php:379
+#: includes/admin/meta-boxes/views/html-variation-admin.php:383
 msgid "Enter the number of days before a download link expires, or leave blank."
 msgstr "Sisesta, mitme päeva pärast kaotab allalaadimise link oma kehtivuse, või jäta tühjaks."
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:31
 #: includes/admin/meta-boxes/views/html-product-data-general.php:116
-#: includes/admin/meta-boxes/views/html-variation-admin.php:378
+#: includes/admin/meta-boxes/views/html-variation-admin.php:382
 #: templates/emails/email-downloads.php:56
 #: templates/emails/plain/email-downloads.php:43
 #: templates/order/order-downloads.php:60
@@ -15795,13 +15794,13 @@ msgid "Never"
 msgstr "Mitte kunagi"
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:104
-#: includes/admin/meta-boxes/views/html-variation-admin.php:363
+#: includes/admin/meta-boxes/views/html-variation-admin.php:367
 msgid "Leave blank for unlimited re-downloads."
 msgstr "Piiramatu allalaadimise lubamiseks jäta väli tühjaks"
 
 #: includes/admin/meta-boxes/views/html-order-download-permission.php:27
 #: includes/admin/meta-boxes/views/html-product-data-general.php:103
-#: includes/admin/meta-boxes/views/html-variation-admin.php:362
+#: includes/admin/meta-boxes/views/html-variation-admin.php:366
 msgid "Unlimited"
 msgstr "Piiramatult"
 
@@ -15810,22 +15809,22 @@ msgid "Add File"
 msgstr "Lisa fail"
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:67
-#: includes/admin/meta-boxes/views/html-variation-admin.php:323
+#: includes/admin/meta-boxes/views/html-variation-admin.php:327
 msgid "This is the URL or absolute path to the file which customers will get access to. URLs entered here should already be encoded."
 msgstr "See on URL või absoluutne tee failini, millele klientidele ligipääs tekib. Siia sisestatavad URLid peaks olema eelnevalt kodeeritud."
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:67
-#: includes/admin/meta-boxes/views/html-variation-admin.php:323
+#: includes/admin/meta-boxes/views/html-variation-admin.php:327
 msgid "File URL"
 msgstr "Faili aadress"
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:66
-#: includes/admin/meta-boxes/views/html-variation-admin.php:322
+#: includes/admin/meta-boxes/views/html-variation-admin.php:326
 msgid "This is the name of the download shown to the customer."
 msgstr "Seda näidatakse kliendile allalaaditava faili nimena."
 
 #: includes/admin/meta-boxes/views/html-product-data-general.php:61
-#: includes/admin/meta-boxes/views/html-variation-admin.php:318
+#: includes/admin/meta-boxes/views/html-variation-admin.php:322
 msgid "Downloadable files"
 msgstr "Allalaaditavad failid"
 
@@ -15904,7 +15903,7 @@ msgid "Linked Products"
 msgstr "Seotud tooted"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:104
-#: includes/admin/class-wc-admin-setup-wizard.php:743
+#: includes/admin/class-wc-admin-setup-wizard.php:741
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:92
 #: includes/admin/meta-boxes/views/html-order-shipping.php:17
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:69
@@ -16037,8 +16036,8 @@ msgstr "Muu"
 #: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:93
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:122
 #: includes/wc-account-functions.php:331
-#: includes/wc-formatting-functions.php:1106
-#: includes/wc-formatting-functions.php:1125
+#: includes/wc-formatting-functions.php:1109
+#: includes/wc-formatting-functions.php:1128
 #: templates/emails/email-addresses.php:31
 #: templates/order/order-details-customer.php:36
 #: templates/order/order-details-customer.php:54
@@ -16196,6 +16195,10 @@ msgstr "Tee siia linnuke, kui seda kupongi ei saa kasutada teiste kupongidega ko
 msgid "Individual use only"
 msgstr "Ainult individuaalseks kasutamiseks"
 
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:130
+msgid "This field allows you to set the maximum spend (subtotal) allowed when using the coupon."
+msgstr "See väli lubab sul määrata maksimaalse kulu (vahesumma), millega seda kupongi saab kasutada."
+
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:129
 msgid "No maximum"
 msgstr "Maksimumi pole"
@@ -16203,6 +16206,10 @@ msgstr "Maksimumi pole"
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:128
 msgid "Maximum spend"
 msgstr "Maksimaalne kulu"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:120
+msgid "This field allows you to set the minimum spend (subtotal) allowed to use the coupon."
+msgstr "See väli võimaldab sul määrata minimaalse kulu (vahesumma), mis on vajalik selle kupongi kasutamiseks."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:119
 msgid "No minimum"
@@ -16604,7 +16611,7 @@ msgstr "Toodete ajutised andmed puhastatud"
 msgid "Create your first product!"
 msgstr "Loo oma esimene toode!"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1639
+#: includes/admin/class-wc-admin-setup-wizard.php:1637
 msgid "Next step"
 msgstr "Järgmine samm"
 
@@ -16621,17 +16628,17 @@ msgstr "Soovid teha WooCommerce'i veelgi kihvtimaks? Luba WooCommerce'il koguda 
 msgid "Enable cash on delivery"
 msgstr "Luba kättesaamisel tasumine"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1096
+#: includes/admin/class-wc-admin-setup-wizard.php:1094
 #: includes/gateways/cod/class-wc-gateway-cod.php:52
 #: includes/gateways/cod/class-wc-gateway-cod.php:79
 msgid "Cash on delivery"
 msgstr "Tasumine kohaletoimetamisel"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1236
+#: includes/admin/class-wc-admin-setup-wizard.php:1234
 msgid "Offline Payments"
 msgstr "Ühenduseta maksed"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1051
+#: includes/admin/class-wc-admin-setup-wizard.php:1049
 msgid "PayPal email address"
 msgstr "PayPali e-posti aadress"
 
@@ -16639,48 +16646,48 @@ msgstr "PayPali e-posti aadress"
 msgid "State"
 msgstr "Maakond"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:822
+#: includes/admin/class-wc-admin-setup-wizard.php:820
 #: includes/admin/settings/class-wc-settings-products.php:454
 msgid "yd"
 msgstr "jard"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:821
+#: includes/admin/class-wc-admin-setup-wizard.php:819
 #: includes/admin/settings/class-wc-settings-products.php:453
 msgid "in"
 msgstr "toll"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:820
+#: includes/admin/class-wc-admin-setup-wizard.php:818
 #: includes/admin/settings/class-wc-settings-products.php:452
 msgid "mm"
 msgstr "mm"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:819
+#: includes/admin/class-wc-admin-setup-wizard.php:817
 #: includes/admin/settings/class-wc-settings-products.php:451
 msgid "cm"
 msgstr "cm"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:818
+#: includes/admin/class-wc-admin-setup-wizard.php:816
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:216
 #: includes/admin/settings/class-wc-settings-products.php:450
 msgid "m"
 msgstr "m"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:803
+#: includes/admin/class-wc-admin-setup-wizard.php:801
 #: includes/admin/settings/class-wc-settings-products.php:436
 msgid "oz"
 msgstr "unts"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:802
+#: includes/admin/class-wc-admin-setup-wizard.php:800
 #: includes/admin/settings/class-wc-settings-products.php:435
 msgid "lbs"
 msgstr "nael"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:801
+#: includes/admin/class-wc-admin-setup-wizard.php:799
 #: includes/admin/settings/class-wc-settings-products.php:434
 msgid "g"
 msgstr "g"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:800
+#: includes/admin/class-wc-admin-setup-wizard.php:798
 #: includes/admin/settings/class-wc-settings-products.php:433
 msgid "kg"
 msgstr "kg"
@@ -16726,9 +16733,9 @@ msgstr "Kus sinu pood asub?"
 msgid "Skip this step"
 msgstr "Jäta see samm vahele"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:828
-#: includes/admin/class-wc-admin-setup-wizard.php:1251
-#: includes/admin/class-wc-admin-setup-wizard.php:1361
+#: includes/admin/class-wc-admin-setup-wizard.php:826
+#: includes/admin/class-wc-admin-setup-wizard.php:1249
+#: includes/admin/class-wc-admin-setup-wizard.php:1359
 #: includes/admin/importers/views/html-product-csv-import-form.php:89
 msgid "Continue"
 msgstr "Jätka"
@@ -16757,7 +16764,7 @@ msgstr "Pood"
 msgid "Not right now"
 msgstr "Mitte praegu"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:421
+#: includes/admin/class-wc-admin-setup-wizard.php:419
 msgid "Let's go!"
 msgstr "Lähme!"
 
@@ -16882,7 +16889,7 @@ msgstr "Maakond / osariik või osariigi kood"
 #: includes/admin/class-wc-admin-profile.php:136
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:75
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:124
-#: includes/wc-template-functions.php:2044
+#: includes/wc-template-functions.php:2045
 #: templates/cart/shipping-calculator.php:39
 msgid "Select a country&hellip;"
 msgstr "Vali riik&hellip;"
@@ -17618,7 +17625,7 @@ msgid "Give your new product a name here. This is a required field and will be w
 msgstr "Anna siin oma uuele tootele nimi. See on nõutud väli ja seda näevad kliendid poes toodet vaadates."
 
 #: includes/admin/class-wc-admin-permalink-settings.php:194
-#: includes/wc-core-functions.php:1696 includes/wc-update-functions.php:60
+#: includes/wc-core-functions.php:1726 includes/wc-update-functions.php:60
 msgctxt "slug"
 msgid "product"
 msgstr "toode"
@@ -17669,13 +17676,13 @@ msgid "shop"
 msgstr "pood"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:85
-#: includes/wc-core-functions.php:1698 includes/wc-update-functions.php:52
+#: includes/wc-core-functions.php:1728 includes/wc-update-functions.php:52
 msgctxt "slug"
 msgid "product-tag"
 msgstr "tootesilt"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:76
-#: includes/wc-core-functions.php:1697 includes/wc-update-functions.php:51
+#: includes/wc-core-functions.php:1727 includes/wc-update-functions.php:51
 msgctxt "slug"
 msgid "product-category"
 msgstr "tootekategooria"
@@ -17884,7 +17891,7 @@ msgstr "Tulen ise järgi"
 msgid "Local delivery"
 msgstr "Kohalik transport"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:636
+#: includes/admin/class-wc-admin-setup-wizard.php:634
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:92
 msgid "Free Shipping"
 msgstr "Tasuta transport"
@@ -17893,7 +17900,7 @@ msgstr "Tasuta transport"
 msgid "Simplify Commerce"
 msgstr "Simplify Commerce"
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1043
+#: includes/admin/class-wc-admin-setup-wizard.php:1041
 msgid "PayPal Standard"
 msgstr "PayPal standard"
 
@@ -18254,7 +18261,7 @@ msgstr "Eemalda"
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:543
 #: includes/admin/meta-boxes/views/html-product-attribute.php:17
 #: includes/admin/meta-boxes/views/html-product-data-general.php:66
-#: includes/admin/meta-boxes/views/html-variation-admin.php:322
+#: includes/admin/meta-boxes/views/html-variation-admin.php:326
 #: includes/admin/settings/views/html-webhooks-edit.php:15
 #: includes/admin/views/html-admin-page-status-report.php:614
 #: includes/export/class-wc-product-csv-exporter.php:83
@@ -18559,7 +18566,7 @@ msgstr "Tarbija võti lõpuga"
 #: includes/admin/class-wc-admin-post-types.php:301
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:425
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:548
-#: includes/admin/meta-boxes/views/html-variation-admin.php:309
+#: includes/admin/meta-boxes/views/html-variation-admin.php:313
 #: includes/admin/settings/class-wc-settings-shipping.php:345
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:73
 #: includes/admin/settings/views/html-keys-edit.php:16
@@ -18569,19 +18576,19 @@ msgstr "Tarbija võti lõpuga"
 #: includes/gateways/cod/class-wc-gateway-cod.php:83
 #: includes/gateways/paypal/includes/settings-paypal.php:25
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:204
-#: includes/wc-template-functions.php:1186
+#: includes/wc-template-functions.php:1187
 #: templates/single-product/tabs/description.php:25
 msgid "Description"
 msgstr "Kirjeldus"
 
 #. translators: %s: average rating
 #. translators: %s: rating
-#: includes/class-wc-embed.php:130 includes/wc-template-functions.php:2672
+#: includes/class-wc-embed.php:130 includes/wc-template-functions.php:2673
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:166
 msgid "Rated %s out of 5"
 msgstr "Hinnanguga %s / 5"
 
-#: includes/wc-template-functions.php:2687
+#: includes/wc-template-functions.php:2688
 msgctxt "min_price"
 msgid "From:"
 msgstr "Alates:"
@@ -18598,21 +18605,21 @@ msgstr "Laost otsas"
 msgid "Available on backorder"
 msgstr "Saadaval järeltellimisel"
 
-#: includes/wc-formatting-functions.php:1047
+#: includes/wc-formatting-functions.php:1050
 msgid "%s in stock"
 msgstr "%s laos"
 
-#: includes/wc-formatting-functions.php:1052
+#: includes/wc-formatting-functions.php:1055
 msgid "(can be backordered)"
 msgstr "(saab järeltellida)"
 
-#: includes/wc-formatting-functions.php:1043
+#: includes/wc-formatting-functions.php:1046
 msgid "Only %s left in stock"
 msgstr "Ainult %s laos"
 
 #: includes/admin/class-wc-admin-post-types.php:451
 #: includes/admin/reports/class-wc-report-stock.php:112
-#: includes/wc-formatting-functions.php:1037
+#: includes/wc-formatting-functions.php:1040
 #: includes/wc-product-functions.php:782
 msgid "In stock"
 msgstr "Laos"
@@ -18658,7 +18665,7 @@ msgstr "Toote %1$s laoseisu suurendati %2$s pealt tasemele %3$s."
 msgid "Order status changed from %1$s to %2$s."
 msgstr "Tellimuse olekut muudeti %1$s olekust %2$s olekusse."
 
-#. #-#-#-#-#  woocommerce-code.pot (WooCommerce 3.2.3)  #-#-#-#-#
+#. #-#-#-#-#  woocommerce-code.pot (WooCommerce 3.2.5)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: includes/admin/class-wc-admin-assets.php:89
 #: includes/admin/class-wc-admin-menus.php:60
@@ -18676,13 +18683,13 @@ msgstr "WooCommerce"
 #: includes/class-wc-emails.php:364
 #: includes/legacy/abstract-wc-legacy-order.php:507
 #: includes/wc-account-functions.php:205
-#: includes/wc-template-functions.php:2558
+#: includes/wc-template-functions.php:2559
 msgid "Download"
 msgstr "Laadi alla"
 
 #. translators: 1: current item count
 #: includes/legacy/abstract-wc-legacy-order.php:507
-#: includes/wc-template-functions.php:2558
+#: includes/wc-template-functions.php:2559
 msgid "Download %d"
 msgstr "Laadi alla %d"
 
