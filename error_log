@@ -1,0 +1,2 @@
+[31-Jan-2018 05:32:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/karlijuhkamiktkh/public_html/dev/wp-test/wp-content/plugins/backwpup/inc/class-cron.php on line 139
+[16-Feb-2018 07:36:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/karlijuhkamiktkh/public_html/dev/wp-test/wp-content/plugins/backwpup/inc/class-cron.php on line 139
